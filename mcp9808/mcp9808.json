@@ -1,0 +1,95 @@
+{
+  "name": "MCP9808",
+  "description": "High-accuracy temperature sensor with I2C interface",
+  "category": "Sensor",
+  "dim_width_mm": 20.0,
+  "dim_height_mm": 28.0,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "POWER",
+      "description": "Power supply connections",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": [
+        "VCC"
+      ]
+    },
+    {
+      "name": "GND",
+      "description": "Ground connection",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": [
+        "GND"
+      ]
+    },
+    {
+      "name": "ADDR",
+      "description": "I2C address configuration pins",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "input",
+      "side": "r",
+      "pin_mappings": [
+        "A0_P",
+        "A1_P",
+        "A2_P"
+      ]
+    },
+    {
+      "name": "ALERT",
+      "description": "Alert output pin",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "output",
+      "side": "r",
+      "pin_mappings": [
+        "Alert"
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "name": "VCC",
+      "description": "Power supply input (2.7V to 5.5V)",
+      "direction": "input",
+      "functions": ["POWER_IN"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    },
+    {
+      "name": "A0_P",
+      "description": "I2C address pin 0",
+      "direction": "input",
+      "functions": ["ADDR_SEL"]
+    },
+    {
+      "name": "A1_P",
+      "description": "I2C address pin 1",
+      "direction": "input",
+      "functions": ["ADDR_SEL"]
+    },
+    {
+      "name": "A2_P",
+      "description": "I2C address pin 2",
+      "direction": "input",
+      "functions": ["ADDR_SEL"]
+    },
+    {
+      "name": "Alert",
+      "description": "Temperature alert output",
+      "direction": "output",
+      "functions": ["ALERT"]
+    }
+  ]
+}
+
