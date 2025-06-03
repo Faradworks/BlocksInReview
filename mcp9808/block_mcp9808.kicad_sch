@@ -1113,113 +1113,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 110.49 59.69)
@@ -1269,7 +1162,7 @@
 		)
 		(uuid b5fb7df3-044d-49f7-b783-432e3b28c714)
 	)
-	(text "2.7V=< VDD <=5.5V"
+	(text "2.7V=<VDD<=5.5V"
 		(exclude_from_sim no)
 		(at 159.004 77.978 0)
 		(effects
@@ -1662,17 +1555,6 @@
 		)
 		(uuid "46ba82f0-80f5-4997-9877-15263a3cedd5")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 43.18 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4780020a-b76c-4570-b67b-f24137662afe")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 60.96 102.87 270)
@@ -2006,6 +1888,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_part#" "C25804"
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "038c5eba-a16f-49ca-aca2-e28d00c71ef8")
 		)
@@ -2076,26 +1976,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Alpha & Omega Semiconductor"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.25 mm"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "SOT-23 Alpha &amp; Omega Semiconductor Inc."
 			(at 33.02 92.71 0)
 			(effects
@@ -2107,56 +1987,6 @@
 			)
 		)
 		(property "Price" "None"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AO3400A/Alpha/view-part/?ref=eda"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "L"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AO3400A/Alpha/view-part/?ref=snap"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "AO3400A"
 			(at 33.02 92.71 0)
 			(effects
 				(font
@@ -2186,17 +2016,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC part#" "C347475"
+		(property "LCSC_part#" "C347475"
 			(at 33.02 92.71 0)
 			(effects
 				(font
@@ -2288,26 +2108,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Alpha & Omega Semiconductor"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.25 mm"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "SOT-23 Alpha &amp; Omega Semiconductor Inc."
 			(at 92.71 91.44 0)
 			(effects
@@ -2319,56 +2119,6 @@
 			)
 		)
 		(property "Price" "None"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AO3400A/Alpha/view-part/?ref=eda"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "L"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AO3400A/Alpha/view-part/?ref=snap"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "AO3400A"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -2398,26 +2148,16 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" "C347475"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "A03400A"
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" "C347475"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -2507,7 +2247,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" "C22399626"
+		(property "LCSC_part#" "C22399626"
 			(at 24.13 44.45 0)
 			(effects
 				(font
@@ -2611,16 +2351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" ""
-			(at 60.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part#" "C25804"
+		(property "LCSC_part#" "C25804"
 			(at 60.96 99.06 0)
 			(effects
 				(font
@@ -2717,7 +2448,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part #" "C25804"
+		(property "MPN" "0603WAF1002T5E"
 			(at 95.25 78.74 0)
 			(effects
 				(font
@@ -2726,7 +2457,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1002T5E"
+		(property "LCSC_part#" "C25804"
 			(at 95.25 78.74 0)
 			(effects
 				(font
@@ -2813,7 +2544,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part #" "C25804"
+		(property "MPN" "0603WAF1002T5E"
 			(at 88.9 97.79 0)
 			(effects
 				(font
@@ -2822,7 +2553,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1002T5E"
+		(property "LCSC_part#" "C25804"
 			(at 88.9 97.79 0)
 			(effects
 				(font
@@ -2909,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part#" "C25804"
+		(property "LCSC_part#" "C25804"
 			(at 29.21 99.06 0)
 			(effects
 				(font
@@ -3006,7 +2737,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" "C25804"
+		(property "MPN" "0603WAF1002T5E"
 			(at 35.56 80.01 0)
 			(effects
 				(font
@@ -3015,7 +2746,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1002T5E"
+		(property "LCSC_part#" "C25804"
 			(at 35.56 80.01 0)
 			(effects
 				(font
@@ -3034,73 +2765,6 @@
 			(project "mcp9808"
 				(path "/c03981be-2c43-4914-acb5-87ace45b97bc/8588cac2-213b-4d99-95cc-25b6329c845e"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:TestPoint")
-		(at 43.18 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "502c9fd7-4149-4ccf-b89f-ac04f0008d89")
-		(property "Reference" "TP1"
-			(at 45.72 33.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 45.72 36.0679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5330bf91-7ab9-40aa-8dd2-804a4e758fc4")
-		)
-		(instances
-			(project ""
-				(path "/c03981be-2c43-4914-acb5-87ace45b97bc/8588cac2-213b-4d99-95cc-25b6329c845e"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3162,6 +2826,24 @@
 			)
 		)
 		(property "package" "0603"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" "C25804"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
 			(at 118.11 80.01 0)
 			(effects
 				(font
@@ -3247,7 +2929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part#" "C105588"
+		(property "LCSC_part#" "C105588"
 			(at 85.09 93.98 90)
 			(effects
 				(font
@@ -3342,7 +3024,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part#" "C105588"
+		(property "LCSC_part#" "C105588"
 			(at 55.88 95.25 90)
 			(effects
 				(font
@@ -3351,7 +3033,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN " "RC0603FR-07100RL"
+		(property "MPN" "RC0603FR-07100RL"
 			(at 55.88 95.25 90)
 			(effects
 				(font
@@ -3501,26 +3183,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Alpha & Omega Semiconductor"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.25 mm"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "SOT-23 Alpha &amp; Omega Semiconductor Inc."
 			(at 63.5 92.71 0)
 			(effects
@@ -3532,56 +3194,6 @@
 			)
 		)
 		(property "Price" "None"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AO3400A/Alpha/view-part/?ref=eda"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "L"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AO3400A/Alpha/view-part/?ref=snap"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "AO3400A"
 			(at 63.5 92.71 0)
 			(effects
 				(font
@@ -3611,26 +3223,16 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" "C347475"
-			(at 63.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "AO3400A"
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" "C347475"
 			(at 63.5 92.71 0)
 			(effects
 				(font
@@ -3710,7 +3312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part#" "C94847"
+		(property "LCSC_part#" "C94847"
 			(at 144.78 92.71 0)
 			(effects
 				(font
@@ -3905,7 +3507,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part #" "C25804"
+		(property "MPN" "0603WAF1002T5E"
 			(at 66.04 80.01 0)
 			(effects
 				(font
@@ -3914,7 +3516,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1002T5E"
+		(property "LCSC_part#" "C25804"
 			(at 66.04 80.01 0)
 			(effects
 				(font
@@ -4000,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C105588"
+		(property "MPN" "RC0603FR-07100RL"
 			(at 24.13 95.25 90)
 			(effects
 				(font
@@ -4009,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL"
+		(property "LCSC_part#" "C105588"
 			(at 24.13 95.25 90)
 			(effects
 				(font
@@ -4096,7 +3698,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part#" "C14663"
+		(property "LCSC_part#" "C14663"
 			(at 35.56 44.45 0)
 			(effects
 				(font
