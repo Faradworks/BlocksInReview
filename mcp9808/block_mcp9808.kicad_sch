@@ -689,7 +689,7 @@
 		)
 		(uuid "bd0047f7-39b5-4f61-a53b-0500b98aade1")
 	)
-	(text "default ADDRESS A0=0, A1=0, A2=0"
+	(text "default ADDRESS with A0=0, A1=0, A2=0 is 0x18"
 		(exclude_from_sim no)
 		(at 191.77 117.602 0)
 		(effects
