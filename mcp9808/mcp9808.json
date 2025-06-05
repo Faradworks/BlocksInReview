@@ -8,14 +8,12 @@
   "ports": [
     {
       "name": "POWER",
-      "description": "Power supply connections",
+      "description": "Power supply connection",
       "category": "POWER",
       "connection_required": true,
       "direction": "input",
       "side": "l",
-      "pin_mappings": [
-        "VCC"
-      ]
+      "pin_mappings": ["VCC"]
     },
     {
       "name": "GND",
@@ -24,22 +22,7 @@
       "connection_required": true,
       "direction": "bidirectional",
       "side": "l",
-      "pin_mappings": [
-        "GND"
-      ]
-    },
-    {
-      "name": "ADDR",
-      "description": "I2C address configuration pins",
-      "category": "DIGITAL",
-      "connection_required": false,
-      "direction": "input",
-      "side": "r",
-      "pin_mappings": [
-        "A0_P",
-        "A1_P",
-        "A2_P"
-      ]
+      "pin_mappings": ["GND"]
     },
     {
       "name": "ALERT",
@@ -48,9 +31,7 @@
       "connection_required": false,
       "direction": "output",
       "side": "r",
-      "pin_mappings": [
-        "Alert"
-      ]
+      "pin_mappings": ["Alert"]
     }
   ],
   "pins": [
@@ -65,24 +46,6 @@
       "description": "Ground reference",
       "direction": "bidirectional",
       "functions": ["GND"]
-    },
-    {
-      "name": "A0_P",
-      "description": "I2C address pin 0",
-      "direction": "input",
-      "functions": ["ADDR_SEL"]
-    },
-    {
-      "name": "A1_P",
-      "description": "I2C address pin 1",
-      "direction": "input",
-      "functions": ["ADDR_SEL"]
-    },
-    {
-      "name": "A2_P",
-      "description": "I2C address pin 2",
-      "direction": "input",
-      "functions": ["ADDR_SEL"]
     },
     {
       "name": "Alert",

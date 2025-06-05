@@ -39,36 +39,6 @@
 				(justify left top)
 			)
 		)
-		(pin "A0_P" input
-			(at 95.25 99.06 180)
-			(uuid "35b499b7-30bf-442a-a0cd-29c11982eede")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A1_P" input
-			(at 95.25 102.87 180)
-			(uuid "b4157fe4-76f5-4979-9051-00fda77b55b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A2_P" input
-			(at 95.25 106.68 180)
-			(uuid "b27c6740-82d7-49cc-a068-09abb417b056")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Alert" input
 			(at 95.25 110.49 180)
 			(uuid "6c8e0b77-e2b3-4981-9976-45d09be338e3")
