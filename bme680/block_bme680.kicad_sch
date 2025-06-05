@@ -877,6 +877,16 @@
 		)
 		(uuid "18c0641e-bdbc-4674-a049-f5c264834a5a")
 	)
+	(text "Default Address:0x77 when address pin is pulled high"
+		(exclude_from_sim no)
+		(at 172.466 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bd94a48-2cce-4356-aaca-5ef48fcbcf84")
+	)
 	(text "BME680\n"
 		(exclude_from_sim no)
 		(at 108.712 62.992 0)
