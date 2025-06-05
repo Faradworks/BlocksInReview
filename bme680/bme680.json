@@ -1,0 +1,76 @@
+{
+  "name": "block_bme680",
+  "description": "Environmental sensor block measuring pressure, humidity, temperature, and gas",
+  "category": "Sensor",
+  "dim_width_mm": 10,
+  "dim_height_mm": 10,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "POWER",
+      "description": "Power supply pins",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["+3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground connection",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": ["GND"]
+    },
+    {
+      "name": "I/O",
+      "description": "Digital communication and control",
+      "category": "DIGITAL",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "r",
+      "pin_mappings": ["CS", "SCK", "SDO/ADDR", "SDI"]
+    }
+  ],
+  "pins": [
+    {
+      "name": "CS",
+      "description": "Chip Select for SPI (active low)",
+      "direction": "input",
+      "functions": ["SPI_CS"]
+    },
+    {
+      "name": "SCK",
+      "description": "Serial Clock",
+      "direction": "input",
+      "functions": ["SPI_CLK", "I2C_SCL"]
+    },
+    {
+      "name": "SDO/ADDR",
+      "description": "SPI MISO / I2C Address Select (0x76/0x77)",
+      "direction": "bidirectional",
+      "functions": ["SPI_MISO", "I2C_ADDR_SELECT"]
+    },
+    {
+      "name": "SDI",
+      "description": "SPI MOSI / I2C Data (SDA)",
+      "direction": "input",
+      "functions": ["SPI_MOSI", "I2C_SDA"]
+    },
+    {
+      "name": "+3V3",
+      "description": "3.3V Power input",
+      "direction": "input",
+      "functions": ["POWER_IN_3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    }
+  ]
+}
+
