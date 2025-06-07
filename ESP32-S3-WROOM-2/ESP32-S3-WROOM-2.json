@@ -1,0 +1,132 @@
+{
+  "name": "ESP32-S3-WROOM-2",
+  "description": "Wi-Fi and BLE combo module with USB and JTAG interfaces",
+  "category": "Microcontroller",
+  "dim_width_mm": 18.0,
+  "dim_height_mm": 25.5,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "POWER",
+      "description": "Power supply connection - 3.3V input",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["+3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": ["GND"]
+    },
+    {
+      "name": "USB",
+      "description": "Native USB interface (device)",
+      "category": "COMMUNICATION",
+      "connection_required": false,
+      "direction": "bidirectional",
+      "side": "r",
+      "pin_mappings": ["USB_D-", "USB_D+"]
+    },
+    {
+      "name": "UART",
+      "description": "UART serial interface (typically for programming)",
+      "category": "COMMUNICATION",
+      "connection_required": false,
+      "direction": "bidirectional",
+      "side": "r",
+      "pin_mappings": ["TXD0/IO43", "RXD0/IO44"]
+    },
+    {
+      "name": "JTAG",
+      "description": "JTAG debugging interface",
+      "category": "DEBUG",
+      "connection_required": false,
+      "direction": "input",
+      "side": "r",
+      "pin_mappings": ["MTMS/IO42", "MTDI/IO41", "MTDO/IO40", "MTCK/IO39"]
+    },
+    {
+      "name": "GPIO",
+      "description": "General purpose digital I/Os",
+      "category": "DIGITAL",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "b",
+      "pin_mappings": [
+        "IO1", "IO2", "IO3", "IO4", "IO5", "IO6", "IO7", "IO8", "IO9",
+        "IO10", "IO11", "IO12", "IO13", "IO14", "IO15", "IO16", "IO17",
+        "IO18", "IO21", "IO38", "IO45", "IO46", "IO47", "IO48"
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "name": "+3V3",
+      "description": "3.3V power input",
+      "direction": "input",
+      "functions": ["POWER_IN_3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    },
+    {
+      "name": "USB_D-",
+      "description": "USB D− differential data",
+      "direction": "bidirectional",
+      "functions": ["USB_DM"]
+    },
+    {
+      "name": "USB_D+",
+      "description": "USB D+ differential data",
+      "direction": "bidirectional",
+      "functions": ["USB_DP"]
+    },
+    {
+      "name": "TXD0/IO43",
+      "description": "UART TX (GPIO43)",
+      "direction": "output",
+      "functions": ["UART_TX"]
+    },
+    {
+      "name": "RXD0/IO44",
+      "description": "UART RX (GPIO44)",
+      "direction": "input",
+      "functions": ["UART_RX"]
+    },
+    {
+      "name": "MTMS/IO42",
+      "description": "JTAG TMS / GPIO42",
+      "direction": "input",
+      "functions": ["JTAG_TMS", "GPIO"]
+    },
+    {
+      "name": "MTDI/IO41",
+      "description": "JTAG TDI / GPIO41",
+      "direction": "input",
+      "functions": ["JTAG_TDI", "GPIO"]
+    },
+    {
+      "name": "MTDO/IO40",
+      "description": "JTAG TDO / GPIO40",
+      "direction": "output",
+      "functions": ["JTAG_TDO", "GPIO"]
+    },
+    {
+      "name": "MTCK/IO39",
+      "description": "JTAG TCK / GPIO39",
+      "direction": "input",
+      "functions": ["JTAG_TCK", "GPIO"]
+    }
+    // Add remaining GPIOs similarly if needed
+  ]
+}
+
