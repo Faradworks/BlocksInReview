@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2bca7139-9750-4f0a-8cae-c77d5e9ee787")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 109.22 64.77)
+		(size 60.96 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2158ea61-c96a-4c98-b294-c4fdff84ada6")
+		(property "Sheetname" "block_ds3231_rtc"
+			(at 109.22 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_ds3231_rtc.kicad_sch"
+			(at 109.22 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "32KHZ" input
+			(at 109.22 95.25 180)
+			(uuid "3ea5249c-c236-4652-bc4d-4a2bf68b0813")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 109.22 73.66 180)
+			(uuid "04f7d26d-6dcf-4976-bdcc-4b8b99a3e4a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NINT" input
+			(at 109.22 100.33 180)
+			(uuid "50385c6f-ffc1-4f5b-8449-65ba8ab81e44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 109.22 106.68 180)
+			(uuid "87de07ff-9aa5-4311-9c29-5cb95af70654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 109.22 69.85 180)
+			(uuid "8d91b71a-e81e-42f9-a71c-90279182d4ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ds3231_rtc"
+				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

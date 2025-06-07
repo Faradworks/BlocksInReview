@@ -1,0 +1,88 @@
+{
+  "name": "DS3231 RTC",
+  "description": "Highly accurate I2C real-time clock with temperature-compensated crystal oscillator",
+  "category": "Timekeeping",
+  "dim_width_mm": 15.0,
+  "dim_height_mm": 25.0,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "Power",
+      "description": "Power supply input",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": [ "VCC" ]
+    },
+    {
+      "name": "GND",
+      "description": "Ground connection",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": [ "GND" ]
+    },
+    {
+      "name": "32K Output",
+      "description": "32.768 kHz clock output",
+      "category": "CLOCK",
+      "connection_required": false,
+      "direction": "output",
+      "side": "l",
+      "pin_mappings": [ "32KHZ" ]
+    },
+    {
+      "name": "Interrupt",
+      "description": "Interrupt output pin",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "output",
+      "side": "l",
+      "pin_mappings": [ "NINT" ]
+    },
+    {
+      "name": "Reset",
+      "description": "Active low reset input",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": [ "NRST" ]
+    }
+  ],
+  "pins": [
+    {
+      "name": "VCC",
+      "description": "Main power supply input",
+      "direction": "input",
+      "functions": [ "POWER_IN_3V3", "POWER_IN_5V" ]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference for all signals",
+      "direction": "bidirectional",
+      "functions": [ "GND" ]
+    },
+    {
+      "name": "32KHZ",
+      "description": "32.768kHz clock signal output",
+      "direction": "output",
+      "functions": [ "CLOCK_OUT" ]
+    },
+    {
+      "name": "NINT",
+      "description": "Interrupt output pin from RTC",
+      "direction": "output",
+      "functions": [ "INTERRUPT_OUT" ]
+    },
+    {
+      "name": "NRST",
+      "description": "Reset input, active low",
+      "direction": "input",
+      "functions": [ "RESET_IN" ]
+    }
+  ]
+}
+
