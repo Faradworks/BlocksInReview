@@ -1,0 +1,112 @@
+{
+  "name": "MICRO_SD",
+  "description": "MicroSD card interface for SPI/SDIO communication",
+  "category": "Storage",
+  "dim_width_mm": 15.0,
+  "dim_height_mm": 17.0,
+  "maybe_public": true,
+  "ports": [
+    {
+      "name": "Power",
+      "description": "3.3V power supply input",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["+3V3"]
+    },
+    {
+      "name": "Ground",
+      "description": "Ground connection",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": ["GND"]
+    },
+    {
+      "name": "SPI",
+      "description": "SPI communication lines (can also support SDIO)",
+      "category": "COMMUNICATION",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "r",
+      "pin_mappings": ["CLK", "CS", "DI", "DO"]
+    },
+    {
+      "name": "SDIO_EXT",
+      "description": "Extra SDIO lines for 4-bit mode",
+      "category": "COMMUNICATION",
+      "connection_required": false,
+      "direction": "bidirectional",
+      "side": "r",
+      "pin_mappings": ["DAT1", "DAT2"]
+    },
+    {
+      "name": "Card Detect",
+      "description": "Card detection pin (active low)",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "output",
+      "side": "r",
+      "pin_mappings": ["DET_A"]
+    }
+  ],
+  "pins": [
+    {
+      "name": "+3V3",
+      "description": "Power input (3.3V only)",
+      "direction": "input",
+      "functions": ["POWER_IN_3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    },
+    {
+      "name": "CLK",
+      "description": "Clock signal input (SPI/SDIO)",
+      "direction": "input",
+      "functions": ["SPI_CLK"]
+    },
+    {
+      "name": "CS",
+      "description": "Chip Select (Active Low) for SPI",
+      "direction": "input",
+      "functions": ["SPI_CS"]
+    },
+    {
+      "name": "DI",
+      "description": "Master Out Slave In (MOSI / CMD)",
+      "direction": "input",
+      "functions": ["SPI_MOSI", "SD_CMD"]
+    },
+    {
+      "name": "DO",
+      "description": "Master In Slave Out (MISO / DAT0)",
+      "direction": "output",
+      "functions": ["SPI_MISO", "SD_DAT0"]
+    },
+    {
+      "name": "DAT1",
+      "description": "SDIO data line 1 (for 4-bit SD mode)",
+      "direction": "bidirectional",
+      "functions": ["SD_DAT1"]
+    },
+    {
+      "name": "DAT2",
+      "description": "SDIO data line 2 (for 4-bit SD mode)",
+      "direction": "bidirectional",
+      "functions": ["SD_DAT2"]
+    },
+    {
+      "name": "DET_A",
+      "description": "Card Detect pin (Active Low when card inserted)",
+      "direction": "output",
+      "functions": ["CARD_DETECT"]
+    }
+  ]
+}
+

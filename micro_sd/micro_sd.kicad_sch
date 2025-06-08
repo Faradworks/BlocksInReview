@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5ae75006-d816-483b-ae7d-dcb900c6de23")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 114.3 68.58)
+		(size 12.7 25.908)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "996a80d3-b554-43ea-a59b-3e94e266c42a")
+		(property "Sheetname" "block_micro_sd"
+			(at 114.3 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_micro_sd.kicad_sch"
+			(at 114.3 95.0726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 114.3 71.12 180)
+			(uuid "2b0eeadd-bb06-4fe2-9744-5669e4fca7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 114.3 76.2 180)
+			(uuid "4ff0b322-73da-4177-a2f5-0493d0cbfc05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 114.3 78.74 180)
+			(uuid "1bf51da6-e580-42ae-bb9e-4b7dbefddbdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAT1" input
+			(at 114.3 81.28 180)
+			(uuid "fa54866a-75be-4343-8d9c-801d946c4695")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAT2" input
+			(at 114.3 83.82 180)
+			(uuid "f448b557-ee89-4806-9fae-905501b50954")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DET_A" input
+			(at 114.3 86.36 180)
+			(uuid "75fcd04e-09c9-496e-b2aa-f348b7841c00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DI" input
+			(at 114.3 88.9 180)
+			(uuid "d401f4f9-b1d9-495f-bea7-49e3ada60d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DO" input
+			(at 114.3 91.44 180)
+			(uuid "8c83b357-d34e-4519-8237-c509f3d743f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 114.3 73.66 180)
+			(uuid "7bbd41fe-47fd-4f2c-b655-7922c8414412")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "micro_sd"
+				(path "/5ae75006-d816-483b-ae7d-dcb900c6de23"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
