@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TF-01A:TF-01A"
+		(symbol "Library:TF-01A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1282,7 +1282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TF-01A:TF-01A")
+		(lib_id "Library:TF-01A")
 		(at 127 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
