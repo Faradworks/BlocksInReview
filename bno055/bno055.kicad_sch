@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 109.22 68.58)
-		(size 27.94 36.83)
+		(at 109.22 81.28)
+		(size 12.7 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "dd09dd6c-1664-4509-ac8b-a99cdc6acfe4")
 		(property "Sheetname" "block_bno055"
-			(at 109.22 67.8684 0)
+			(at 109.22 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 109.22 73.66 180)
+			(at 109.22 83.82 180)
 			(uuid "6064949c-9164-4306-aa62-8b0bef681b82")
 			(effects
 				(font
@@ -50,7 +50,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 109.22 77.47 180)
+			(at 109.22 87.63 180)
 			(uuid "4685fafc-375d-4c7c-9adb-c2dfa98bcd03")
 			(effects
 				(font
@@ -60,7 +60,7 @@
 			)
 		)
 		(pin "INT" input
-			(at 109.22 87.63 180)
+			(at 109.22 91.44 180)
 			(uuid "b5a733e2-a673-4432-a466-7cd0915cb571")
 			(effects
 				(font
@@ -69,18 +69,8 @@
 				(justify left)
 			)
 		)
-		(pin "NRESET" input
-			(at 109.22 92.71 180)
-			(uuid "6b862dd6-9e82-4431-b006-4379ca72f266")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SCL" input
-			(at 109.22 97.79 180)
+			(at 109.22 99.06 180)
 			(uuid "01d6989a-1f13-46a7-a03b-a4cd1d8523fc")
 			(effects
 				(font
@@ -92,6 +82,16 @@
 		(pin "SDA" input
 			(at 109.22 102.87 180)
 			(uuid "0149749f-ba08-42ce-a89b-f5fed9a3fe13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 109.22 95.25 180)
+			(uuid "3ea7c43b-9f57-4fd2-b7e5-5642b96bfe83")
 			(effects
 				(font
 					(size 1.27 1.27)

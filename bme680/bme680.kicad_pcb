@@ -1426,7 +1426,7 @@
 		(at 119 74 -90)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
-		(property "Reference" "JP3"
+		(property "Reference" "JP1"
 			(at 2.25 0 180)
 			(layer "F.SilkS")
 			(uuid "8b7d0f8d-535b-4683-bed5-21e7993621cd")
@@ -1999,8 +1999,21 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "avoid ground plane just below sensor\nand avoid high current trace near by\nsensor and under it which can heat \nit up."
-		(at 117.5 72.45 0)
+	(gr_text "Environmental sensor for temperature, \nhumidity, pressure, and gas (VOC)."
+		(at 117.74 76.85 0)
+		(layer "Dwgs.User")
+		(uuid "11c9bbf3-14e7-4036-8956-9095cbe5a82d")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Avoid ground planes and high-current\ntraces beneath or near the sensor \nto prevent heat buildup"
+		(at 117.59 71.82 0)
 		(layer "Dwgs.User")
 		(uuid "18478307-62e1-47fe-8fdd-553e64d1f14f")
 		(effects
@@ -2012,8 +2025,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "KEEP OUT \nAREA\nLAYER 2 \nAND 3"
-		(at 122.61 75.07 0)
+	(gr_text "KEEP OUT \nAREA\nLAYER 2 \nAND 3\nsensor area"
+		(at 122.27 75.27 0)
 		(layer "Dwgs.User")
 		(uuid "81b6818e-6a3a-4006-b8f2-ff23b7751802")
 		(effects
@@ -2025,13 +2038,13 @@
 		)
 	)
 	(gr_text "BME680"
-		(at 122.75 76.71 0)
+		(at 128 75.25 90)
 		(layer "Dwgs.User")
 		(uuid "d9f475cb-91c6-4261-875f-d390228ef8eb")
 		(effects
 			(font
-				(size 0.7 0.7)
-				(thickness 0.153)
+				(size 0.5 0.5)
+				(thickness 0.125)
 				(bold yes)
 			)
 			(justify left bottom)

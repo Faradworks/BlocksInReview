@@ -3033,6 +3033,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "It is a high-accuracy digital\ntemperature sensor with I²C \ninterface and configurable \naddress pins, offering ±0.25°C \nprecision"
+		(at 122.22 86.08 0)
+		(layer "Dwgs.User")
+		(uuid "e75338a1-1da9-4e08-952e-67b4057428fc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 129.08 77.23)
 		(end 129.08 77.83)

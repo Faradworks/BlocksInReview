@@ -5,6 +5,214 @@
 	(uuid "1b94a710-b660-46cf-936d-c0fe2113e882")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Library:1N4148WS"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.2887 1.9073 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at -2.2866 -3.4299 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1N4148WS:SOD323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Diotec Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Small Signal Diode, SOD-323F, 100V, 0.15A, 150°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOD-323F Diotec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N4148WS/Diotec/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "1N4148WS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/1N4148WS/Diotec/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_0"
+				(rectangle
+					(start -1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:BNO055"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -744,6 +952,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:NX3215SA-32.768K-STD-MUA-14"
 			(pin_names
 				(offset 1.016)
@@ -1192,113 +1550,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 87.63 53.34)
@@ -1312,15 +1563,67 @@
 		)
 		(uuid 42029f46-35d1-4efc-b30d-9c0442d9d5cb)
 	)
-	(text "BNO055\n"
+	(text "BNO055"
 		(exclude_from_sim no)
-		(at 112.776 61.214 0)
+		(at 152.146 57.912 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
 			)
 		)
-		(uuid "34054555-27c1-472b-b639-d4e02fc900f1")
+		(uuid "1d594d14-e38a-4b2b-955a-57eac2810efd")
+	)
+	(text "ADDRESS TABLE\n"
+		(exclude_from_sim no)
+		(at 125.476 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52644e0f-bbdb-43ba-b39c-ade0659086e1")
+	)
+	(text "I²C address selectable via jumper(JP1)"
+		(exclude_from_sim no)
+		(at 152.908 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d9727e3-e104-4b47-8e9e-6418869171d3")
+	)
+	(text "I2C PULLUP\n"
+		(exclude_from_sim no)
+		(at 106.172 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba7d2c86-4a42-47b5-a5ae-8da516a207b0")
+	)
+	(text "Default Address:0x28\n"
+		(exclude_from_sim no)
+		(at 145.288 139.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bec85c3b-d6c3-4ff7-8bff-63584f35ea7a")
+	)
+	(text "BN0055: 9-DOF Orientation Sensor with Onboard Sensor Fusion\nI2C Communication | 3.3V Supply | Internal MCU\n"
+		(exclude_from_sim no)
+		(at 180.848 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4467b18-4493-4de0-a64b-1d26a43ce4fa")
 	)
 	(text "Power supply\n"
 		(exclude_from_sim no)
@@ -1333,30 +1636,36 @@
 		(uuid "e0ea52f0-ae54-4605-839f-31a719c813fa")
 	)
 	(junction
+		(at 132.08 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ccaafb8-d33b-480f-b93a-d110f3278acf")
+	)
+	(junction
 		(at 146.05 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0c2136e-0833-42cb-b7f9-9d996f23c43e")
 	)
+	(junction
+		(at 133.35 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3368856-d9f5-4e66-a5f2-e5d5846648b5")
+	)
+	(no_connect
+		(at 133.35 92.71)
+		(uuid "e330c0c3-d9eb-4402-85f4-055e07d98c75")
+	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 146.05 74.93)
+			(xy 146.05 71.12) (xy 146.05 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "01206751-f519-4987-8c5c-fe2d6666d353")
-	)
-	(wire
-		(pts
-			(xy 133.35 92.71) (xy 111.76 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5e5be4-42bb-4169-a3d9-c04e40ceff21")
 	)
 	(wire
 		(pts
@@ -1387,6 +1696,26 @@
 			(type default)
 		)
 		(uuid "4731b160-d6c1-4910-99ec-3835b6759b33")
+	)
+	(wire
+		(pts
+			(xy 133.35 105.41) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a0e458-e21f-4fff-bfce-6a08ab42f842")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b3c8bc-6486-41d1-bd66-52f5f93460ff")
 	)
 	(wire
 		(pts
@@ -1430,6 +1759,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d428acd5-670b-4cf7-a52a-5efa2465dfd7")
+	)
+	(wire
+		(pts
 			(xy 146.05 74.93) (xy 151.13 74.93)
 		)
 		(stroke
@@ -1440,13 +1779,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 92.71) (xy 111.76 95.25)
+			(xy 124.46 74.93) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f429a213-d9e0-409e-9c01-f5f4ee81f33b")
+		(uuid "f27254e6-ff49-4416-99d9-81038ec3ac2a")
 	)
 	(wire
 		(pts
@@ -1458,14 +1797,162 @@
 		)
 		(uuid "fbbe8c1d-2007-4022-bdc6-133e1b64247c")
 	)
-	(hierarchical_label "NRESET"
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 7.62)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "ADDR"
+				(exclude_from_sim no)
+				(at 125.73 133.35 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3deade99-7fa1-44d6-a2d1-31296742a21d")
+			)
+			(table_cell "0X29"
+				(exclude_from_sim no)
+				(at 125.73 135.89 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4d960a1f-bb60-453b-a320-2572f3f2d57f")
+			)
+			(table_cell "0X28"
+				(exclude_from_sim no)
+				(at 125.73 138.43 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "26e522bc-c0e3-458e-9d1f-20bfc886d6ae")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 6.35)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "COM3"
+				(exclude_from_sim no)
+				(at 119.38 133.35 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c438a347-a5c0-43dd-ab4e-1c70c50b86c0")
+			)
+			(table_cell "HIGH"
+				(exclude_from_sim no)
+				(at 119.38 135.89 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8d8319c8-7e3d-4c72-bca5-068bba591536")
+			)
+			(table_cell "LOW"
+				(exclude_from_sim no)
+				(at 119.38 138.43 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2823cee7-9fe1-41b3-b5b6-1e7fb497fd94")
+			)
+		)
+	)
+	(hierarchical_label "RESET"
 		(shape input)
-		(at 133.35 80.01 180)
+		(at 124.46 69.85 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "00403590-d087-45d5-8a20-02c40f1377ba")
 	)
@@ -1559,7 +2046,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 146.05 67.31 90)
+		(at 146.05 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1614,7 +2101,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 133.35 113.03 270)
+		(at 133.35 119.38 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1633,6 +2120,17 @@
 			(justify left)
 		)
 		(uuid "94798541-d9b5-4c2e-b447-19f81c67de98")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 132.08 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97af1f74-cfd6-4e88-a78f-9e7e10958049")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
@@ -1667,6 +2165,17 @@
 		)
 		(uuid "b2851a18-ea92-495e-b810-cd124e8f73a9")
 	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 123.19 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e08d8909-03be-4c84-8999-1e42865e3d79")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 171.45 100.33 0)
@@ -1688,6 +2197,102 @@
 			(justify left)
 		)
 		(uuid "f2d55a6a-e0c2-4517-a508-63fcc830af8c")
+	)
+	(symbol
+		(lib_id "Library:R")
+		(at 132.08 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b125902-387c-40e3-9cb9-8b8ed6af3bd8")
+		(property "Reference" "R6"
+			(at 134.62 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 134.62 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.302 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "package" "0603"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" "C25804"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da709d14-b3e2-407a-91ed-6837acc46d9a")
+		)
+		(pin "1"
+			(uuid "93ff3397-28f1-4f57-a9ae-2f60720cc6d5")
+		)
+		(instances
+			(project "bno055"
+				(path "/f8d3015c-52c9-49c8-b6d7-adf5214a6f15/dd09dd6c-1664-4509-ac8b-a99cdc6acfe4"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Library:C")
@@ -1898,6 +2503,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:1N4148WS")
+		(at 124.46 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4542bc1a-88a6-4b9a-b6a6-a7d2c9761a5e")
+		(property "Reference" "D1"
+			(at 127.508 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 129.286 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1N4148WS:SOD323"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" "C2128"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "7f22d83a-e76d-4f23-9b02-4758adbcaf3c")
+		)
+		(pin "A"
+			(uuid "7ee95a65-6b95-4a76-adb7-1b903b1e6ca8")
+		)
+		(instances
+			(project "bno055"
+				(path "/f8d3015c-52c9-49c8-b6d7-adf5214a6f15/dd09dd6c-1664-4509-ac8b-a99cdc6acfe4"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:C")
 		(at 170.18 80.01 90)
 		(unit 1)
@@ -2003,7 +2694,7 @@
 	)
 	(symbol
 		(lib_id "Library:R")
-		(at 133.35 109.22 0)
+		(at 133.35 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2011,7 +2702,7 @@
 		(dnp no)
 		(uuid "5b120bff-d518-4ec9-942a-457c5e908f12")
 		(property "Reference" "R1"
-			(at 128.524 108.458 0)
+			(at 128.524 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2711,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 128.524 110.49 0)
+			(at 128.524 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +2720,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 131.572 109.22 90)
+			(at 131.572 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +2729,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 109.22 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2738,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 109.22 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2747,7 @@
 			)
 		)
 		(property "package" "0603"
-			(at 133.35 109.22 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2756,7 @@
 			)
 		)
 		(property "LCSC_part#" "C25804"
-			(at 133.35 109.22 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2765,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 133.35 109.22 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,6 +2783,76 @@
 			(project "bno055"
 				(path "/f8d3015c-52c9-49c8-b6d7-adf5214a6f15/dd09dd6c-1664-4509-ac8b-a99cdc6acfe4"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Jumper_2_Open")
+		(at 128.27 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab24b89-39cc-4a02-b35f-96c7db0e2ebe")
+		(property "Reference" "JP1"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 127.0001 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7efaec94-ceae-4450-ab93-e0dbfa94bf44")
+		)
+		(pin "1"
+			(uuid "3ddea3bb-9918-4423-ab8d-f4c7a7c1aaab")
+		)
+		(instances
+			(project "bno055"
+				(path "/f8d3015c-52c9-49c8-b6d7-adf5214a6f15/dd09dd6c-1664-4509-ac8b-a99cdc6acfe4"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2940,72 +3701,6 @@
 			(project "bno055"
 				(path "/f8d3015c-52c9-49c8-b6d7-adf5214a6f15/dd09dd6c-1664-4509-ac8b-a99cdc6acfe4"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:TestPoint")
-		(at 111.76 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee38f439-e257-43ec-99ad-34a36b925c3b")
-		(property "Reference" "TP1"
-			(at 114.3 97.2819 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 114.3 99.8219 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 106.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3924fe5c-eba9-4a37-9bfb-3d44529e1ff6")
-		)
-		(instances
-			(project ""
-				(path "/f8d3015c-52c9-49c8-b6d7-adf5214a6f15/dd09dd6c-1664-4509-ac8b-a99cdc6acfe4"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

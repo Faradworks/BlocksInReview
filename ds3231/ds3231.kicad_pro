@@ -475,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ds3231_rtc.kicad_pro",
+    "filename": "ds3231.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -664,7 +664,7 @@
     ],
     [
       "2158ea61-c96a-4c98-b294-c4fdff84ada6",
-      "block_ds3231_rtc"
+      "block_ds3231"
     ]
   ],
   "text_variables": {}

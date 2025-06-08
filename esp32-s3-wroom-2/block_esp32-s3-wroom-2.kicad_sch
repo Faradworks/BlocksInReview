@@ -1365,25 +1365,15 @@
 		)
 		(uuid f1b1ff4c-1252-47e2-ad23-aa78d2b35f2d)
 	)
-	(text "ESP32-S3-WROOM-2\n"
+	(text "• Place 0.1 µF decoupling capacitors close to each VDD pin.\n• Include 10 µF bulk capacitor on 3.3 V line.\n• EN pin requires RC delay (10 kΩ + 0.1 µF recommended).\n• Connect GPIO0 (BOOT) to GND via momentary switch for flashing.\n"
 		(exclude_from_sim no)
-		(at 151.384 29.464 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "439c81bd-5e88-4af9-b626-40d2f0c727e6")
-	)
-	(text "boot\n"
-		(exclude_from_sim no)
-		(at 181.102 59.182 0)
+		(at 96.266 77.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "45736bb6-5280-4e04-88ec-48aadd96d10f")
+		(uuid "1228fc8f-8f1b-480d-b075-5160aa8fdf28")
 	)
 	(text "Power Supply\n"
 		(exclude_from_sim no)
@@ -1394,6 +1384,38 @@
 			)
 		)
 		(uuid "52a1d50f-8bb9-4d60-abe2-820ed06c4c6e")
+	)
+	(text "TP1: Test point for EN"
+		(exclude_from_sim no)
+		(at 121.666 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "721a5d30-cbcc-405b-a57b-c3010c56d4bb")
+	)
+	(text "• Avoid driving output on GPIO during boot unless configured.\n• Avoid pull-ups on strapping pins unless required (e.g., GPIO0, GPIO2, MTDI).\n"
+		(exclude_from_sim no)
+		(at 102.108 146.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd36c152-b76b-47e8-9727-64ad7670de3d")
+	)
+	(text "ESP32-S3-WROOM-2\n"
+		(exclude_from_sim no)
+		(at 146.812 29.718 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "e3bfcab6-4f3b-4ced-bb01-50c1be9a02d5")
 	)
 	(junction
 		(at 134.62 55.88)
@@ -2151,8 +2173,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 124.206 49.276 0)
+		(property "Value" "T_EN"
+			(at 124.714 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2834,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "BOOT"
 			(at 181.61 50.8 0)
 			(effects
 				(font
@@ -3106,7 +3128,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RST"
 			(at 119.38 50.8 0)
 			(effects
 				(font

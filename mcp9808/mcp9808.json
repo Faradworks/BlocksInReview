@@ -1,19 +1,19 @@
 {
   "name": "MCP9808",
-  "description": "High-accuracy temperature sensor with I2C interface",
+  "description": "High-accuracy I2C temperature sensor with programmable alert output",
   "category": "Sensor",
-  "dim_width_mm": 20.0,
-  "dim_height_mm": 28.0,
+  "dim_width_mm": 10.0,
+  "dim_height_mm": 15.0,
   "maybe_public": false,
   "ports": [
     {
       "name": "POWER",
-      "description": "Power supply connection",
+      "description": "Power supply input (typically 3.3V)",
       "category": "POWER",
       "connection_required": true,
       "direction": "input",
       "side": "l",
-      "pin_mappings": ["VCC"]
+      "pin_mappings": [ "VCC" ]
     },
     {
       "name": "GND",
@@ -22,16 +22,25 @@
       "connection_required": true,
       "direction": "bidirectional",
       "side": "l",
-      "pin_mappings": ["GND"]
+      "pin_mappings": [ "GND" ]
+    },
+    {
+      "name": "I2C",
+      "description": "I2C communication interface",
+      "category": "COMMUNICATION",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": [ "SCL", "SDA" ]
     },
     {
       "name": "ALERT",
-      "description": "Alert output pin",
+      "description": "Alert output (temperature threshold interrupt)",
       "category": "DIGITAL",
       "connection_required": false,
       "direction": "output",
-      "side": "r",
-      "pin_mappings": ["Alert"]
+      "side": "l",
+      "pin_mappings": [ "Alert" ]
     }
   ],
   "pins": [
@@ -39,19 +48,31 @@
       "name": "VCC",
       "description": "Power supply input (2.7V to 5.5V)",
       "direction": "input",
-      "functions": ["POWER_IN"]
+      "functions": [ "POWER_IN_3V3" ]
     },
     {
       "name": "GND",
       "description": "Ground reference",
       "direction": "bidirectional",
-      "functions": ["GND"]
+      "functions": [ "GND" ]
+    },
+    {
+      "name": "SCL",
+      "description": "I2C clock line",
+      "direction": "bidirectional",
+      "functions": [ "I2C_SCL" ]
+    },
+    {
+      "name": "SDA",
+      "description": "I2C data line",
+      "direction": "bidirectional",
+      "functions": [ "I2C_SDA" ]
     },
     {
       "name": "Alert",
-      "description": "Temperature alert output",
+      "description": "Active-low alert output triggered by temperature thresholds",
       "direction": "output",
-      "functions": ["ALERT"]
+      "functions": [ "ALERT", "INTERRUPT" ]
     }
   ]
 }

@@ -380,7 +380,7 @@
 			)
 		)
 		(instances
-			(project "ESP32-S3-WROOM-2"
+			(project "esp32-s3-wroom-2"
 				(path "/2b66d0cb-ee88-4f16-bd13-ca6704331a98"
 					(page "2")
 				)

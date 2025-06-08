@@ -49,7 +49,7 @@
       "connection_required": false,
       "direction": "input",
       "side": "r",
-      "pin_mappings": [ "NRESET" ]
+      "pin_mappings": [ "RESET" ]
     }
   ],
   "pins": [
@@ -72,7 +72,7 @@
       "functions": [ "ALERT", "DATA_READY" ]
     },
     {
-      "name": "NRESET",
+      "name": "RESET",
       "description": "Active-low reset pin",
       "direction": "input",
       "functions": [ "RESET" ]

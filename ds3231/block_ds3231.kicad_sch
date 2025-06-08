@@ -968,7 +968,7 @@
 	)
 	(rectangle
 		(start 81.28 57.15)
-		(end 194.31 124.46)
+		(end 200.66 124.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -977,6 +977,16 @@
 			(type none)
 		)
 		(uuid 62f26c39-c843-417d-a445-f49eb77f9b84)
+	)
+	(text " DS3231 Key Features  \n- ±2 ppm time accuracy (0 to +40 °C)  \n- I2C Address: 0x68 (fixed)  \n- Integrated crystal oscillator  \n- Battery backup for timekeeping  \n- Optional square wave and 32 kHz output"
+		(exclude_from_sim no)
+		(at 177.8 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2106758a-fe41-44f1-8ba6-6b68d428a6fc")
 	)
 	(text "Power supply\n"
 		(exclude_from_sim no)
@@ -988,19 +998,31 @@
 		)
 		(uuid "243faafc-809c-4d25-b0a6-9396af27c64d")
 	)
-	(text "DS3231\n"
+	(text " CR1216/CR1225 3V Coin Cell Backup (SMT)\n• 3 V backup for timekeeping  \n• Use non-rechargeable lithium cells only\n"
 		(exclude_from_sim no)
-		(at 122.682 60.706 0)
+		(at 168.91 66.802 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 1.27 1.27)
 			)
 		)
-		(uuid "8c29ea08-11e0-41dc-8a58-1b93ccb8590c")
+		(uuid "7a7f8519-d6b6-48cc-ba52-d2045939662b")
+	)
+	(text "DS3231"
+		(exclude_from_sim no)
+		(at 129.54 62.738 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "9451c8bd-ad6d-422b-97b3-b2c6ba32ce1d")
 	)
 	(wire
 		(pts
-			(xy 123.19 90.17) (xy 134.62 90.17)
+			(xy 111.76 91.44) (xy 123.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1010,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 147.32 82.55)
+			(xy 135.89 80.01) (xy 135.89 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1020,7 +1042,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 78.74) (xy 147.32 78.74)
+			(xy 137.16 80.01) (xy 135.89 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1030,7 +1052,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 130.81 86.36)
+			(xy 119.38 88.9) (xy 119.38 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 86.36) (xy 123.19 90.17)
+			(xy 111.76 87.63) (xy 111.76 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1072,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 134.62 87.63)
+			(xy 119.38 88.9) (xy 123.19 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1060,7 +1082,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 147.32 102.87 270)
+		(at 135.89 104.14 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1071,7 +1093,7 @@
 	)
 	(hierarchical_label "NINT"
 		(shape input)
-		(at 160.02 95.25 0)
+		(at 148.59 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1093,7 +1115,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 163.83 78.74 0)
+		(at 152.4 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1115,7 +1137,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape input)
-		(at 134.62 97.79 180)
+		(at 123.19 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1137,7 +1159,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 144.78 82.55 90)
+		(at 133.35 83.82 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1148,7 +1170,7 @@
 	)
 	(hierarchical_label "32KHZ"
 		(shape input)
-		(at 160.02 87.63 0)
+		(at 148.59 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1170,7 +1192,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 130.81 78.74 90)
+		(at 119.38 80.01 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1181,7 +1203,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 123.19 78.74 90)
+		(at 111.76 80.01 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1192,7 +1214,7 @@
 	)
 	(symbol
 		(lib_id "Library:R")
-		(at 123.19 82.55 0)
+		(at 111.76 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1200,7 +1222,7 @@
 		(dnp no)
 		(uuid "2a5f1982-017d-446a-b676-5c4d0b13cac3")
 		(property "Reference" "R2"
-			(at 118.364 81.788 0)
+			(at 106.934 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1231,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 118.364 83.82 0)
+			(at 106.934 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1240,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.412 82.55 90)
+			(at 109.982 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 82.55 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1258,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 82.55 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1267,7 @@
 			)
 		)
 		(property "package" "0603"
-			(at 123.19 82.55 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1276,7 @@
 			)
 		)
 		(property "LCSC_part#" "C25804"
-			(at 123.19 82.55 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1285,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 123.19 82.55 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1300,7 @@
 			(uuid "ba06b3af-d22b-489f-a449-0010bcfe50fe")
 		)
 		(instances
-			(project "ds3231_rtc"
+			(project "ds3231"
 				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
 					(reference "R2")
 					(unit 1)
@@ -1382,7 +1404,7 @@
 			(uuid "b290f213-15aa-4344-a5d5-9aa84786569e")
 		)
 		(instances
-			(project "ds3231_rtc"
+			(project "ds3231"
 				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
 					(reference "C1")
 					(unit 1)
@@ -1392,7 +1414,7 @@
 	)
 	(symbol
 		(lib_id "Library:R")
-		(at 130.81 82.55 0)
+		(at 119.38 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1400,7 +1422,7 @@
 		(dnp no)
 		(uuid "5b120bff-d518-4ec9-942a-457c5e908f12")
 		(property "Reference" "R1"
-			(at 125.984 81.788 0)
+			(at 114.554 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1431,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 125.984 83.82 0)
+			(at 114.554 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1440,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.032 82.55 90)
+			(at 117.602 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 82.55 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1458,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 82.55 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1467,7 @@
 			)
 		)
 		(property "package" "0603"
-			(at 130.81 82.55 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1476,7 @@
 			)
 		)
 		(property "LCSC_part#" "C25804"
-			(at 130.81 82.55 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1485,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 130.81 82.55 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1500,7 @@
 			(uuid "000e0dbd-5ccf-4227-ba68-b1db73103a1d")
 		)
 		(instances
-			(project "ds3231_rtc"
+			(project "ds3231"
 				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
 					(reference "R1")
 					(unit 1)
@@ -1582,7 +1604,7 @@
 			(uuid "802753fa-2383-462e-b108-c735c747030d")
 		)
 		(instances
-			(project "ds3231_rtc"
+			(project "ds3231"
 				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
 					(reference "C2")
 					(unit 1)
@@ -1592,7 +1614,7 @@
 	)
 	(symbol
 		(lib_id "Library:DS3231M")
-		(at 147.32 92.71 0)
+		(at 135.89 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1601,7 +1623,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed316b4e-8292-488e-abd0-b4339c5805a8")
 		(property "Reference" "U1"
-			(at 149.4633 102.87 0)
+			(at 138.0333 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1632,7 @@
 			)
 		)
 		(property "Value" "DS3231M"
-			(at 149.4633 105.41 0)
+			(at 138.0333 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1641,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at 147.32 107.95 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1650,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf"
-			(at 154.178 91.44 0)
+			(at 142.748 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1659,7 @@
 			)
 		)
 		(property "Description" "Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16"
-			(at 147.32 92.71 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1668,7 @@
 			)
 		)
 		(property "LCSC_part#" "C37663"
-			(at 147.32 92.71 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,7 +1677,7 @@
 			)
 		)
 		(property "MPN" "DS3231M+TRL"
-			(at 147.32 92.71 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1734,7 @@
 			(uuid "262b6937-dc27-443b-bbc2-4fff24d89563")
 		)
 		(instances
-			(project ""
+			(project "ds3231"
 				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
 					(reference "U1")
 					(unit 1)
@@ -1722,7 +1744,7 @@
 	)
 	(symbol
 		(lib_id "Library:BAT-HLD-012-SMT")
-		(at 156.21 78.74 0)
+		(at 144.78 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1731,7 +1753,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffa029a2-da93-4302-8900-08f96f063f39")
 		(property "Reference" "BT1"
-			(at 155.575 71.12 0)
+			(at 144.145 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1761,7 @@
 			)
 		)
 		(property "Value" "BAT-HLD-012-SMT"
-			(at 155.575 73.66 0)
+			(at 144.145 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1769,7 @@
 			)
 		)
 		(property "Footprint" "BAT-HLD-012-SMT:BAT_BAT-HLD-012-SMT"
-			(at 156.21 78.74 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 78.74 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 78.74 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1797,7 @@
 			)
 		)
 		(property "LCSC_part#" "C5189234"
-			(at 156.21 78.74 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1806,7 @@
 			)
 		)
 		(property "MPN" "BAT-HLD-012-SMT"
-			(at 156.21 78.74 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1824,7 @@
 			(uuid "12dd99e0-5df0-4e3e-829d-eb1301b2a5ec")
 		)
 		(instances
-			(project ""
+			(project "ds3231"
 				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
 					(reference "BT1")
 					(unit 1)

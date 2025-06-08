@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 95.25 62.23)
-		(size 41.91 53.34)
+		(at 95.25 74.93)
+		(size 13.97 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "8588cac2-213b-4d99-95cc-25b6329c845e")
 		(property "Sheetname" "block_mcp9808"
-			(at 95.25 61.5184 0)
+			(at 95.25 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "block_mcp9808.kicad_sch"
-			(at 95.25 116.1546 0)
+			(at 95.25 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 			)
 		)
 		(pin "Alert" input
-			(at 95.25 110.49 180)
+			(at 95.25 95.25 180)
 			(uuid "6c8e0b77-e2b3-4981-9976-45d09be338e3")
 			(effects
 				(font
@@ -50,7 +50,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 95.25 73.66 180)
+			(at 95.25 82.55 180)
 			(uuid "144b8a7d-2831-4326-ab17-0a4081081814")
 			(effects
 				(font
@@ -60,8 +60,28 @@
 			)
 		)
 		(pin "VCC" input
-			(at 95.25 69.85 180)
+			(at 95.25 78.74 180)
 			(uuid "f26cc63f-6ed0-4c8a-8108-53eee2e6450b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 95.25 87.63 180)
+			(uuid "49318c22-b8ea-4c00-9e79-0b451e7630a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 95.25 91.44 180)
+			(uuid "eef96886-177e-4a51-b594-cc2e5682c34f")
 			(effects
 				(font
 					(size 1.27 1.27)

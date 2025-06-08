@@ -877,9 +877,9 @@
 		)
 		(uuid "18c0641e-bdbc-4674-a049-f5c264834a5a")
 	)
-	(text "Default Address:0x77 when address pin is pulled high"
+	(text "Default Address:0x77\n"
 		(exclude_from_sim no)
-		(at 172.466 121.666 0)
+		(at 122.428 122.174 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -887,13 +887,43 @@
 		)
 		(uuid "6bd94a48-2cce-4356-aaca-5ef48fcbcf84")
 	)
-	(text "BME680\n"
+	(text "ADDRESS TABLE\n"
 		(exclude_from_sim no)
-		(at 108.712 62.992 0)
+		(at 102.616 112.776 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7afbba1a-a16f-404c-9972-1cd9db5bf651")
+	)
+	(text "Environmental sensor for temperature, humidity,\npressure, and gas (VOC)"
+		(exclude_from_sim no)
+		(at 181.102 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "997827d4-343d-4172-b673-355658995ded")
+	)
+	(text "I²C address selectable via jumper(JP1)"
+		(exclude_from_sim no)
+		(at 130.556 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbd58e34-3e57-407e-b164-447aad9a719b")
+	)
+	(text "BME680\n"
+		(exclude_from_sim no)
+		(at 149.098 62.23 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
 				(bold yes)
 			)
 		)
@@ -970,6 +1000,154 @@
 			(type default)
 		)
 		(uuid "f4eb1033-1cef-4d7f-bb8f-82385ad1bb4a")
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 6.35)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "SD0"
+				(exclude_from_sim no)
+				(at 96.52 115.57 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c438a347-a5c0-43dd-ab4e-1c70c50b86c0")
+			)
+			(table_cell "HIGH"
+				(exclude_from_sim no)
+				(at 96.52 118.11 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8d8319c8-7e3d-4c72-bca5-068bba591536")
+			)
+			(table_cell "LOW"
+				(exclude_from_sim no)
+				(at 96.52 120.65 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2823cee7-9fe1-41b3-b5b6-1e7fb497fd94")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 7.62)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "ADDR"
+				(exclude_from_sim no)
+				(at 102.87 115.57 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3deade99-7fa1-44d6-a2d1-31296742a21d")
+			)
+			(table_cell "0X76"
+				(exclude_from_sim no)
+				(at 102.87 118.11 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4d960a1f-bb60-453b-a320-2572f3f2d57f")
+			)
+			(table_cell "0X77"
+				(exclude_from_sim no)
+				(at 102.87 120.65 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "26e522bc-c0e3-458e-9d1f-20bfc886d6ae")
+			)
+		)
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
@@ -1415,8 +1593,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ab24b89-39cc-4a02-b35f-96c7db0e2ebe")
-		(property "Reference" "JP3"
-			(at 172.72 88.8999 90)
+		(property "Reference" "JP1"
+			(at 172.72 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1648,7 @@
 		(instances
 			(project "bme680"
 				(path "/419bc571-068d-4021-a70d-c9d5ede62e1d/0b452597-2969-4c44-9bd0-751bfc0daaa3"
-					(reference "JP3")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
