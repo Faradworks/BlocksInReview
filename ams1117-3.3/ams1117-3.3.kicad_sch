@@ -1,0 +1,86 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9f68b76c-189c-4994-b307-541ac4615c07")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 60.96 42.672)
+		(size 12.7 9.652)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46a1e78e-e5d4-4916-8fc2-a3eedcf9a739")
+		(property "Sheetname" "block_ams1117-3.3"
+			(at 60.96 41.9604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_ams1117-3.3.kicad_sch"
+			(at 60.96 52.9086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 60.96 44.45 180)
+			(uuid "788f6cb3-c425-4b71-82bd-613197366b23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 60.96 46.99 180)
+			(uuid "c4342165-f653-47d2-9418-13d81473bdbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 60.96 49.53 180)
+			(uuid "c8034eff-1055-425c-bda5-4ed3ca90dabe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ams1117-3.3"
+				(path "/9f68b76c-189c-4994-b307-541ac4615c07"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

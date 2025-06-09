@@ -899,11 +899,12 @@
 	)
 	(text "Environmental sensor for temperature, humidity,\npressure, and gas (VOC)"
 		(exclude_from_sim no)
-		(at 181.102 113.538 0)
+		(at 157.734 117.602 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "997827d4-343d-4172-b673-355658995ded")
 	)

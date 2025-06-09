@@ -1,0 +1,58 @@
+{
+  "name": "block_ams1117-3.3",
+  "description": "Linear voltage regulator block to convert higher voltage (e.g., 5V) to 3.3V using AMS1117-3.3",
+  "category": "Power",
+  "dim_width_mm": 10,
+  "dim_height_mm": 10,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "VIN",
+      "description": "Voltage input (4.5V to 12V recommended: 5V–7V)",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "r",
+      "pin_mappings": ["VIN"]
+    },
+    {
+      "name": "+3V3",
+      "description": "Regulated 3.3V output",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "output",
+      "side": "l",
+      "pin_mappings": ["+3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground connection",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": ["GND"]
+    }
+  ],
+  "pins": [
+    {
+      "name": "VIN",
+      "description": "Input voltage (recommended 5V–7V)",
+      "direction": "input",
+      "functions": ["POWER_IN"]
+    },
+    {
+      "name": "+3V3",
+      "description": "3.3V regulated output (up to 800mA max)",
+      "direction": "output",
+      "functions": ["POWER_OUT_3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference for input and output",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    }
+  ]
+}
+

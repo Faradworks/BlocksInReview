@@ -980,11 +980,12 @@
 	)
 	(text " DS3231 Key Features  \n- ±2 ppm time accuracy (0 to +40 °C)  \n- I2C Address: 0x68 (fixed)  \n- Integrated crystal oscillator  \n- Battery backup for timekeeping  \n- Optional square wave and 32 kHz output"
 		(exclude_from_sim no)
-		(at 177.8 85.852 0)
+		(at 158.242 89.662 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "2106758a-fe41-44f1-8ba6-6b68d428a6fc")
 	)
@@ -1000,11 +1001,12 @@
 	)
 	(text " CR1216/CR1225 3V Coin Cell Backup (SMT)\n• 3 V backup for timekeeping  \n• Use non-rechargeable lithium cells only\n"
 		(exclude_from_sim no)
-		(at 168.91 66.802 0)
+		(at 155.448 102.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "7a7f8519-d6b6-48cc-ba52-d2045939662b")
 	)

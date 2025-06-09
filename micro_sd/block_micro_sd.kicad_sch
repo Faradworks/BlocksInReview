@@ -677,11 +677,12 @@
 	)
 	(text "- Operating Voltage: 3.3V (Do NOT exceed 3.6V)\n- Logic Level: 3.3V (Use level shifters if MCU is 5V)"
 		(exclude_from_sim no)
-		(at 160.02 139.954 0)
+		(at 135.128 137.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "5b91fa38-5c25-43ff-86a4-47c81abe0664")
 	)

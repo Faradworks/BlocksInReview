@@ -1365,13 +1365,14 @@
 		)
 		(uuid f1b1ff4c-1252-47e2-ad23-aa78d2b35f2d)
 	)
-	(text "• Place 0.1 µF decoupling capacitors close to each VDD pin.\n• Include 10 µF bulk capacitor on 3.3 V line.\n• EN pin requires RC delay (10 kΩ + 0.1 µF recommended).\n• Connect GPIO0 (BOOT) to GND via momentary switch for flashing.\n"
+	(text "• Place 0.1 µF decoupling capacitors close to each VDD pin.\n• EN pin requires RC delay (10 kΩ + 0.1 µF recommended).\n• Connect GPIO0 (BOOT) to GND via momentary switch for flashing.\n"
 		(exclude_from_sim no)
-		(at 96.266 77.216 0)
+		(at 64.008 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "1228fc8f-8f1b-480d-b075-5160aa8fdf28")
 	)
@@ -1397,11 +1398,12 @@
 	)
 	(text "• Avoid driving output on GPIO during boot unless configured.\n• Avoid pull-ups on strapping pins unless required (e.g., GPIO0, GPIO2, MTDI).\n"
 		(exclude_from_sim no)
-		(at 102.108 146.812 0)
+		(at 64.008 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "bd36c152-b76b-47e8-9727-64ad7670de3d")
 	)
