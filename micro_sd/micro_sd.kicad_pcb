@@ -130,6 +130,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -834,7 +835,7 @@
 		(at 146.0638 92.75)
 		(descr "<b>TF-01A-6</b><br>")
 		(property "Reference" "MICRO_SD1"
-			(at -10.0938 -7.7 90)
+			(at 8.2362 -1.75 90)
 			(layer "F.SilkS")
 			(uuid "a08af746-c3b4-4686-8c17-f2c2795666ac")
 			(effects
@@ -2729,7 +2730,7 @@
 	)
 	(gr_rect
 		(start 134.28 77.29)
-		(end 155.74 101.27)
+		(end 155.74 100.77)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -2740,7 +2741,7 @@
 	)
 	(gr_rect
 		(start 134.28 77.29)
-		(end 155.74 101.27)
+		(end 155.74 100.77)
 		(stroke
 			(width 0.1)
 			(type default)

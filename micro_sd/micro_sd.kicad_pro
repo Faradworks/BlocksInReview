@@ -243,7 +243,6 @@
     "layer_presets": [
       {
         "activeLayer": -2,
-        "flipBoard": false,
         "layers": [
           8,
           10,

@@ -653,7 +653,7 @@
 	)
 	(rectangle
 		(start 81.28 50.8)
-		(end 193.04 146.05)
+		(end 185.42 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -677,7 +677,7 @@
 	)
 	(text "- Operating Voltage: 3.3V (Do NOT exceed 3.6V)\n- Logic Level: 3.3V (Use level shifters if MCU is 5V)"
 		(exclude_from_sim no)
-		(at 135.128 137.414 0)
+		(at 103.124 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -710,7 +710,7 @@
 		)
 		(uuid "c25dc7db-6a48-41ca-8d89-16544523f59e")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 142.24 76.2 90)
 		(effects
@@ -721,7 +721,7 @@
 		)
 		(uuid "02c7643a-1d1a-4e0b-910e-6a4159e8b277")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 133.35 76.2 90)
 		(effects
@@ -743,7 +743,7 @@
 		)
 		(uuid "18f57714-4990-4a06-a18e-b02ad1918873")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 144.78 106.68 0)
 		(effects
@@ -809,7 +809,7 @@
 		)
 		(uuid "5885773a-fd56-4db9-b56e-028633c4669d")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 158.75 76.2 90)
 		(effects
@@ -820,7 +820,7 @@
 		)
 		(uuid "58d8bfc4-22fe-4f7f-a4ae-51a3ecaaf860")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 167.64 76.2 90)
 		(effects
@@ -842,7 +842,7 @@
 		)
 		(uuid "69b7306e-ad2d-43f8-9beb-c49333e29e99")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 87.63 76.2 90)
 		(effects
@@ -875,7 +875,7 @@
 		)
 		(uuid "7bd1dafa-3ad0-49e5-aa19-32c2f186776e")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 125.73 76.2 90)
 		(effects
@@ -908,7 +908,7 @@
 		)
 		(uuid "926c2f80-e1b6-4689-ba38-0d8da93b1a3f")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 151.13 76.2 90)
 		(effects
@@ -974,7 +974,7 @@
 		)
 		(uuid "c94e4ce9-5089-4c23-8cbb-c5d09f6f1e5b")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 175.26 76.2 90)
 		(effects
@@ -1007,7 +1007,7 @@
 		)
 		(uuid "d33fabc2-0576-4c90-b6b0-229ab06b9787")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 99.06 76.2 90)
 		(effects
