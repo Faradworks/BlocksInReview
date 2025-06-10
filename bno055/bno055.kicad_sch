@@ -39,7 +39,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3V3" input
+		(pin "3V3" input
 			(at 109.22 83.82 180)
 			(uuid "6064949c-9164-4306-aa62-8b0bef681b82")
 			(effects

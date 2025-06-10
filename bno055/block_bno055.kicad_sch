@@ -1607,7 +1607,7 @@
 	)
 	(text "Default Address:0x28\n"
 		(exclude_from_sim no)
-		(at 145.288 139.954 0)
+		(at 144.018 136.652 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1816,80 +1816,6 @@
 				(type solid)
 			)
 		)
-		(column_widths 7.62)
-		(row_heights 2.54 2.54 2.54)
-		(cells
-			(table_cell "ADDR"
-				(exclude_from_sim no)
-				(at 125.73 133.35 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "3deade99-7fa1-44d6-a2d1-31296742a21d")
-			)
-			(table_cell "0X29"
-				(exclude_from_sim no)
-				(at 125.73 135.89 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4d960a1f-bb60-453b-a320-2572f3f2d57f")
-			)
-			(table_cell "0X28"
-				(exclude_from_sim no)
-				(at 125.73 138.43 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "26e522bc-c0e3-458e-9d1f-20bfc886d6ae")
-			)
-		)
-	)
-	(table
-		(column_count 1)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
 		(column_widths 6.35)
 		(row_heights 2.54 2.54 2.54)
 		(cells
@@ -1943,6 +1869,80 @@
 					(justify left top)
 				)
 				(uuid "2823cee7-9fe1-41b3-b5b6-1e7fb497fd94")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 7.62)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "ADDR"
+				(exclude_from_sim no)
+				(at 125.73 133.35 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3deade99-7fa1-44d6-a2d1-31296742a21d")
+			)
+			(table_cell "0X29"
+				(exclude_from_sim no)
+				(at 125.73 135.89 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4d960a1f-bb60-453b-a320-2572f3f2d57f")
+			)
+			(table_cell "0X28"
+				(exclude_from_sim no)
+				(at 125.73 138.43 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "26e522bc-c0e3-458e-9d1f-20bfc886d6ae")
 			)
 		)
 	)
@@ -2001,7 +2001,7 @@
 		)
 		(uuid "1e780d26-782d-42dc-a9db-73afd90a8143")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 111.76 74.93 90)
 		(effects
@@ -2045,7 +2045,7 @@
 		)
 		(uuid "300f7f32-687e-44ad-85e3-d6114b3f8255")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 146.05 71.12 90)
 		(effects
@@ -2078,7 +2078,7 @@
 		)
 		(uuid "53aaa5eb-9e01-442d-920e-f599f7af17e5")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 133.35 90.17 180)
 		(effects
@@ -2111,7 +2111,7 @@
 		)
 		(uuid "8d449092-4066-4faf-a148-bfda9e3fdcc0")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 105.41 111.76 90)
 		(effects
@@ -2122,7 +2122,7 @@
 		)
 		(uuid "94798541-d9b5-4c2e-b447-19f81c67de98")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 132.08 72.39 90)
 		(effects
@@ -2133,7 +2133,7 @@
 		)
 		(uuid "97af1f74-cfd6-4e88-a78f-9e7e10958049")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 113.03 116.84 90)
 		(effects
@@ -2166,7 +2166,7 @@
 		)
 		(uuid "b2851a18-ea92-495e-b810-cd124e8f73a9")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 123.19 111.76 270)
 		(effects
@@ -2188,7 +2188,7 @@
 		)
 		(uuid "e4bccec0-092d-4669-bacd-68efcf641058")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 100.33 74.93 90)
 		(effects
