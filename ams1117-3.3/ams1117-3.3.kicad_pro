@@ -243,7 +243,6 @@
     "layer_presets": [
       {
         "activeLayer": -2,
-        "flipBoard": false,
         "layers": [
           8,
           10,
@@ -797,7 +796,7 @@
     ],
     [
       "46a1e78e-e5d4-4916-8fc2-a3eedcf9a739",
-      "block_ams1117-3.3"
+      "AMS1117-3.3"
     ]
   ],
   "text_variables": {}

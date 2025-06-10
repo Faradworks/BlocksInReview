@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "46a1e78e-e5d4-4916-8fc2-a3eedcf9a739")
-		(property "Sheetname" "block_ams1117-3.3"
+		(property "Sheetname" "AMS1117-3.3"
 			(at 60.96 41.9604 0)
 			(effects
 				(font
@@ -39,7 +39,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3V3" output
+		(pin "3V3" output
 			(at 60.96 44.45 180)
 			(uuid "788f6cb3-c425-4b71-82bd-613197366b23")
 			(effects

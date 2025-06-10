@@ -986,7 +986,7 @@
 	)
 	(rectangle
 		(start 87.63 73.66)
-		(end 187.452 138.176)
+		(end 187.452 134.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -1210,7 +1210,7 @@
 		)
 		(uuid "a8d0f39d-2697-4d81-8a92-04916c3252cd")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape output)
 		(at 151.13 90.17 0)
 		(effects
@@ -1232,7 +1232,7 @@
 		)
 		(uuid "ef9ff4f2-1432-497d-a28b-45c34d32ee78")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape output)
 		(at 172.72 87.63 90)
 		(effects
