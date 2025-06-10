@@ -246,7 +246,6 @@
     "layer_presets": [
       {
         "activeLayer": -2,
-        "flipBoard": false,
         "layers": [
           8,
           10,
@@ -707,7 +706,7 @@
           "group_by": false,
           "label": "LCSC_part#",
           "name": "LCSC_part#",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -744,6 +743,18 @@
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -800,7 +811,7 @@
     ],
     [
       "2158ea61-c96a-4c98-b294-c4fdff84ada6",
-      "block_ds3231"
+      "DS3231"
     ]
   ],
   "text_variables": {}

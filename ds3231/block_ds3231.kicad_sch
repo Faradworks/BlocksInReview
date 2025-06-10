@@ -841,134 +841,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 81.28 57.15)
-		(end 200.66 124.46)
+		(end 200.66 113.03)
 		(stroke
 			(width 0)
 			(type default)
@@ -1024,16 +900,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 123.19 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03674c3c-7e98-4e2e-a47b-b8d71d01ba09")
-	)
-	(wire
-		(pts
 			(xy 135.89 80.01) (xy 135.89 83.82)
 		)
 		(stroke
@@ -1054,33 +920,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 119.38 87.63)
+			(xy 118.11 88.9) (xy 123.19 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5ab1848-adb0-40f5-9710-4eb89d8dde96")
+		(uuid "7587fe73-08b4-4734-bbf9-35921dd445ea")
 	)
 	(wire
 		(pts
-			(xy 111.76 87.63) (xy 111.76 91.44)
+			(xy 118.11 91.44) (xy 123.19 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df5c521c-e286-4bec-9c43-2a66cc52710c")
-	)
-	(wire
-		(pts
-			(xy 119.38 88.9) (xy 123.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c8364c-875d-4c40-a0a5-9c8f71a5d535")
+		(uuid "cfd549bc-37ac-4e05-823f-838b4df70cf0")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1114,6 +970,17 @@
 			(justify right)
 		)
 		(uuid "1cfffaaf-266b-486c-8696-03f59a9cfc54")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 118.11 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c528404-0c08-44c8-bfbc-7c91ee4fa743")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1192,123 +1059,16 @@
 		)
 		(uuid "d8f896dc-28ba-40ae-8302-95098343eb3c")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 119.38 80.01 90)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 118.11 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e2948b98-39c3-4055-9830-ffbb14597cd2")
-	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 111.76 80.01 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e76fe6b5-1e8c-40e6-8b71-1ee7092c293c")
-	)
-	(symbol
-		(lib_id "Library:R")
-		(at 111.76 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a5f1982-017d-446a-b676-5c4d0b13cac3")
-		(property "Reference" "R2"
-			(at 106.934 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 106.934 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.982 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "package" "0603"
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_part#" "C25804"
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c38b000-73d1-4f5e-8675-ebc5d930d8fc")
-		)
-		(pin "1"
-			(uuid "ba06b3af-d22b-489f-a449-0010bcfe50fe")
-		)
-		(instances
-			(project "ds3231"
-				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d9148ce7-59b2-4123-8f84-02cd234abca5")
 	)
 	(symbol
 		(lib_id "Library:C")
@@ -1409,102 +1169,6 @@
 			(project "ds3231"
 				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:R")
-		(at 119.38 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b120bff-d518-4ec9-942a-457c5e908f12")
-		(property "Reference" "R1"
-			(at 114.554 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 114.554 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 117.602 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "package" "0603"
-			(at 119.38 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_part#" "C25804"
-			(at 119.38 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 119.38 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89189a9e-67e3-4bfa-aa83-dabb3d988368")
-		)
-		(pin "1"
-			(uuid "000e0dbd-5ccf-4227-ba68-b1db73103a1d")
-		)
-		(instances
-			(project "ds3231"
-				(path "/2bca7139-9750-4f0a-8cae-c77d5e9ee787/2158ea61-c96a-4c98-b294-c4fdff84ada6"
-					(reference "R1")
 					(unit 1)
 				)
 			)

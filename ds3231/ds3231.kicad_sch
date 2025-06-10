@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 109.22 64.77)
-		(size 12.7 27.94)
+		(at 109.22 69.85)
+		(size 12.7 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2158ea61-c96a-4c98-b294-c4fdff84ada6")
-		(property "Sheetname" "block_ds3231"
-			(at 109.22 64.0584 0)
+		(property "Sheetname" "DS3231"
+			(at 109.22 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "block_ds3231.kicad_sch"
-			(at 109.22 93.2946 0)
+			(at 109.22 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 			)
 		)
 		(pin "32KHZ" input
-			(at 109.22 78.74 180)
+			(at 109.22 80.01 180)
 			(uuid "3ea5249c-c236-4652-bc4d-4a2bf68b0813")
 			(effects
 				(font
@@ -50,7 +50,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 109.22 73.66 180)
+			(at 109.22 87.63 180)
 			(uuid "04f7d26d-6dcf-4976-bdcc-4b8b99a3e4a1")
 			(effects
 				(font
@@ -60,7 +60,7 @@
 			)
 		)
 		(pin "NINT" input
-			(at 109.22 83.82 180)
+			(at 109.22 82.55 180)
 			(uuid "50385c6f-ffc1-4f5b-8449-65ba8ab81e44")
 			(effects
 				(font
@@ -70,7 +70,7 @@
 			)
 		)
 		(pin "NRST" input
-			(at 109.22 90.17 180)
+			(at 109.22 85.09 180)
 			(uuid "87de07ff-9aa5-4311-9c29-5cb95af70654")
 			(effects
 				(font
@@ -80,8 +80,28 @@
 			)
 		)
 		(pin "VCC" input
-			(at 109.22 69.85 180)
+			(at 109.22 72.39 180)
 			(uuid "8d91b71a-e81e-42f9-a71c-90279182d4ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 109.22 77.47 180)
+			(uuid "13c99c5d-e4cb-47d2-a54c-df4d5e9b0006")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 109.22 74.93 180)
+			(uuid "089f00b4-e16b-4a85-b5fc-ac085cd11ce1")
 			(effects
 				(font
 					(size 1.27 1.27)
