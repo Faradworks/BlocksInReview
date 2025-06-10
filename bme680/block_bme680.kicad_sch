@@ -908,9 +908,9 @@
 		)
 		(uuid "997827d4-343d-4172-b673-355658995ded")
 	)
-	(text "I²C address selectable via jumper(JP1)"
+	(text "I²C address selectable via jumper at SDO"
 		(exclude_from_sim no)
-		(at 130.556 116.84 0)
+		(at 132.334 119.888 0)
 		(effects
 			(font
 				(size 1.27 1.27)
