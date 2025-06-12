@@ -1,0 +1,139 @@
+{
+  "name": "TMC2209",
+  "description": "SilentStepStick stepper motor driver with UART interface and microstepping support",
+  "category": "Motor Driver",
+  "dim_width_mm": 17.0,
+  "dim_height_mm": 20.0,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "POWER",
+      "description": "Power supply pins for logic and motor",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["VCC_IO", "VMOTOR"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference for logic and power",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": ["GND"]
+    },
+    {
+      "name": "Control",
+      "description": "Control interface: STEP, DIR, MS1, MS2, STANDBY, UART, INDEX, DIAG",
+      "category": "DIGITAL",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["UART", "DIAG", "DIR", "INDEX", "MS1", "MS2", "STANDBY", "STEP"]
+    },
+    {
+      "name": "Motor Outputs",
+      "description": "Motor driver H-bridge outputs",
+      "category": "MOTOR",
+      "connection_required": true,
+      "direction": "output",
+      "side": "r",
+      "pin_mappings": ["OUT1A", "OUT1B", "OUT2A", "OUT2B"]
+    }
+  ],
+  "pins": [
+    {
+      "name": "VCC_IO",
+      "description": "Logic voltage supply input (3.0V to 5.5V)",
+      "direction": "input",
+      "functions": ["POWER_IN"]
+    },
+    {
+      "name": "VMOTOR",
+      "description": "Motor voltage supply (4.75V to 29V)",
+      "direction": "input",
+      "functions": ["POWER_IN"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference for all circuits",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    },
+    {
+      "name": "UART",
+      "description": "Single-wire UART interface for configuration",
+      "direction": "bidirectional",
+      "functions": ["UART"]
+    },
+    {
+      "name": "DIAG",
+      "description": "Diagnostic output or interrupt pin",
+      "direction": "output",
+      "functions": ["STATUS", "FAULT"]
+    },
+    {
+      "name": "DIR",
+      "description": "Direction control input",
+      "direction": "input",
+      "functions": ["DIR"]
+    },
+    {
+      "name": "INDEX",
+      "description": "Index output pin for diagnostics",
+      "direction": "output",
+      "functions": ["STATUS"]
+    },
+    {
+      "name": "MS1",
+      "description": "Microstep resolution select bit 1",
+      "direction": "input",
+      "functions": ["STEP_MODE"]
+    },
+    {
+      "name": "MS2",
+      "description": "Microstep resolution select bit 2",
+      "direction": "input",
+      "functions": ["STEP_MODE"]
+    },
+    {
+      "name": "STANDBY",
+      "description": "Standby control input to disable output",
+      "direction": "input",
+      "functions": ["POWER_CTRL"]
+    },
+    {
+      "name": "STEP",
+      "description": "Step control input",
+      "direction": "input",
+      "functions": ["STEP"]
+    },
+    {
+      "name": "OUT1A",
+      "description": "Motor phase A output (positive side)",
+      "direction": "output",
+      "functions": ["MOTOR_OUT"]
+    },
+    {
+      "name": "OUT1B",
+      "description": "Motor phase A output (negative side)",
+      "direction": "output",
+      "functions": ["MOTOR_OUT"]
+    },
+    {
+      "name": "OUT2A",
+      "description": "Motor phase B output (positive side)",
+      "direction": "output",
+      "functions": ["MOTOR_OUT"]
+    },
+    {
+      "name": "OUT2B",
+      "description": "Motor phase B output (negative side)",
+      "direction": "output",
+      "functions": ["MOTOR_OUT"]
+    }
+  ]
+}
+

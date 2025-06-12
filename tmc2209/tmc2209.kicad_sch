@@ -1,0 +1,206 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ab28fbfe-464f-4947-8b61-c081113c001e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 98.298 81.788)
+		(size 18.796 34.544)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7efd2ce0-e26e-471f-8598-f424aba0bca4")
+		(property "Sheetname" "TMC2209"
+			(at 98.298 81.0764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_tmc2209.kicad_sch"
+			(at 98.298 116.9166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIAG" input
+			(at 98.298 91.44 180)
+			(uuid "0be63092-97fb-4797-be58-46d66135f56f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIR" input
+			(at 98.298 95.25 180)
+			(uuid "72d2b175-ada0-4c58-b680-1ddd328f3286")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 98.298 99.06 180)
+			(uuid "9535f464-806c-41fb-a368-41089b0e7114")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INDEX" input
+			(at 98.298 102.87 180)
+			(uuid "478ae464-45bc-487e-bed4-abcb3b2da49b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 98.298 106.68 180)
+			(uuid "c13061e6-fae1-448a-bd08-b22b52e01543")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 98.298 110.49 180)
+			(uuid "41bdc7bc-f8fa-4691-9725-161425615e04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1A" input
+			(at 117.094 87.63 0)
+			(uuid "2924e0d8-9759-4b32-8148-501c1c8628a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1B" input
+			(at 117.094 95.25 0)
+			(uuid "5a565d66-2771-4a77-bb2c-acdf8ac71b2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2A" input
+			(at 117.094 91.44 0)
+			(uuid "aea97986-08fd-43ea-a6c9-e898e131cd0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2B" input
+			(at 117.094 99.06 0)
+			(uuid "ae57ab8c-f47e-465e-9c87-e0bd50bf128f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STANDBY" input
+			(at 98.298 114.3 180)
+			(uuid "54b5b46c-201a-4bba-88ef-5ddce2b997a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 117.094 102.87 0)
+			(uuid "a0695cdd-7a3c-4f63-a0bc-5a8503ca4731")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART" input
+			(at 98.298 87.63 180)
+			(uuid "51598b3a-87ca-4ca2-adfd-0c38f019dcc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_IO" input
+			(at 98.298 83.82 180)
+			(uuid "b43af8d1-0221-4cdc-8a7d-37b13ee84715")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VMOTOR" input
+			(at 117.094 83.82 0)
+			(uuid "a6d4dc47-f70d-401d-9a02-e1063fafee18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "tmc2209"
+				(path "/ab28fbfe-464f-4947-8b61-c081113c001e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
