@@ -2452,80 +2452,6 @@
 				(type solid)
 			)
 		)
-		(column_widths 19.558)
-		(row_heights 2.794 2.794 2.794)
-		(cells
-			(table_cell "Driver_mode"
-				(exclude_from_sim no)
-				(at 118.618 120.65 0)
-				(size 19.558 2.794)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "15479a23-a586-4a1b-a74a-bebe99c73b07")
-			)
-			(table_cell "SPREADCYCLE"
-				(exclude_from_sim no)
-				(at 118.618 123.444 0)
-				(size 19.558 2.794)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "625872e8-e541-499c-8194-4256d03bef37")
-			)
-			(table_cell "STEALTHCHOP"
-				(exclude_from_sim no)
-				(at 118.618 126.238 0)
-				(size 19.558 2.794)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "44284c46-001b-4819-88ea-0c82b4dd9c17")
-			)
-		)
-	)
-	(table
-		(column_count 1)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
 		(column_widths 11.684)
 		(row_heights 2.794 2.794 2.794)
 		(cells
@@ -2567,6 +2493,80 @@
 				(exclude_from_sim no)
 				(at 106.934 126.238 0)
 				(size 11.684 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "44284c46-001b-4819-88ea-0c82b4dd9c17")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 19.558)
+		(row_heights 2.794 2.794 2.794)
+		(cells
+			(table_cell "Driver_mode"
+				(exclude_from_sim no)
+				(at 118.618 120.65 0)
+				(size 19.558 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "15479a23-a586-4a1b-a74a-bebe99c73b07")
+			)
+			(table_cell "SPREADCYCLE"
+				(exclude_from_sim no)
+				(at 118.618 123.444 0)
+				(size 19.558 2.794)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "625872e8-e541-499c-8194-4256d03bef37")
+			)
+			(table_cell "STEALTHCHOP"
+				(exclude_from_sim no)
+				(at 118.618 126.238 0)
+				(size 19.558 2.794)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
