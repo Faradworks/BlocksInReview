@@ -800,7 +800,7 @@
     ],
     [
       "20e74f70-5ed9-4cb7-99f3-ee3dcb0785e5",
-      "block_esp32-s3-wroom-2"
+      "esp32-s3-wroom-2"
     ]
   ],
   "text_variables": {}

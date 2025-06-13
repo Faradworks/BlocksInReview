@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "20e74f70-5ed9-4cb7-99f3-ee3dcb0785e5")
-		(property "Sheetname" "block_esp32-s3-wroom-2"
+		(property "Sheetname" "esp32-s3-wroom-2"
 			(at 83.82 52.6284 0)
 			(effects
 				(font
