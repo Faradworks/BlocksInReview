@@ -2686,6 +2686,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_part#" "C3021270"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESP32-S3-WROOM-2-N32R8V"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "32"
 			(uuid "87af477d-ae52-46e0-801c-209d8b15ed8b")
 		)
