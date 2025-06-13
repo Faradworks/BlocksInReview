@@ -13,7 +13,7 @@
       "connection_required": true,
       "direction": "input",
       "side": "l",
-      "pin_mappings": ["+3V3"]
+      "pin_mappings": ["3V3"]
     },
     {
       "name": "GND",
@@ -67,7 +67,7 @@
   ],
   "pins": [
     {
-      "name": "+3V3",
+      "name": "3V3",
       "description": "3.3V power input",
       "direction": "input",
       "functions": ["POWER_IN_3V3"]
