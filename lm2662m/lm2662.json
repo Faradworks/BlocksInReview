@@ -1,0 +1,58 @@
+{
+  "name": "LM2662M",
+  "description": "Switched-Capacitor Voltage Inverter / Charge Pump",
+  "category": "Power Management",
+  "dim_width_mm": 5.0,
+  "dim_height_mm": 6.0,
+  "maybe_public": true,
+  "ports": [
+    {
+      "name": "Power Input",
+      "description": "Main supply voltage",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["VCC"]
+    },
+    {
+      "name": "Ground",
+      "description": "Ground connection",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": ["GND"]
+    },
+    {
+      "name": "Negative Output",
+      "description": "Inverted voltage output (-VCC)",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "output",
+      "side": "l",
+      "pin_mappings": ["VCCN"]
+    }
+  ],
+  "pins": [
+    {
+      "name": "VCC",
+      "description": "Positive supply input (1.5V to 5.5V)",
+      "direction": "input",
+      "functions": ["POWER_IN"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground return for input and output",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    },
+    {
+      "name": "VCCN",
+      "description": "Negative output voltage (~-VCC)",
+      "direction": "output",
+      "functions": ["POWER_OUT"]
+    }
+  ]
+}
+

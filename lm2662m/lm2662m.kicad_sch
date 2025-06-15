@@ -1,0 +1,86 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "59682402-3289-4d8c-8fe2-f240604f762b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 115.062 81.026)
+		(size 12.7 11.176)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0fdd4d16-89d5-4743-9b07-59c363053658")
+		(property "Sheetname" "LM2662M"
+			(at 115.062 80.3144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_lm2662m.kicad_sch"
+			(at 115.062 92.7866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 115.062 86.36 180)
+			(uuid "cfc4f3b9-d4ee-476b-a884-5a485098a97b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 115.062 82.55 180)
+			(uuid "9c136dc2-c641-49b4-affe-772ac6ffb4e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCN" input
+			(at 115.062 90.17 180)
+			(uuid "1156a664-c2d9-45c6-acb7-fee1039f5acd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lm2662m"
+				(path "/59682402-3289-4d8c-8fe2-f240604f762b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
