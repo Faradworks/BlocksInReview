@@ -1,0 +1,124 @@
+{
+  "name": "MCP3008",
+  "description": "8-channel 10-bit SPI ADC",
+  "category": "Sensor Interface",
+  "dim_width_mm": 10.0,
+  "dim_height_mm": 10.0,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "Analog Inputs",
+      "description": "Analog input channels CH0–CH7",
+      "category": "ANALOG",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["CH0", "CH1", "CH2", "CH3", "CH4", "CH5", "CH6", "CH7"]
+    },
+    {
+      "name": "SPI Interface",
+      "description": "SPI communication interface",
+      "category": "DIGITAL",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "r",
+      "pin_mappings": ["MOSI", "MISO", "CS", "CLK"]
+    },
+    {
+      "name": "POWER",
+      "description": "Power and ground pins",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["VDD", "GND"]
+    }
+  ],
+  "pins": [
+    {
+      "name": "VDD",
+      "description": "Power supply (2.7V to 5.5V)",
+      "direction": "input",
+      "functions": ["POWER_IN"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    },
+    {
+      "name": "CH0",
+      "description": "Analog input channel 0",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "CH1",
+      "description": "Analog input channel 1",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "CH2",
+      "description": "Analog input channel 2",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "CH3",
+      "description": "Analog input channel 3",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "CH4",
+      "description": "Analog input channel 4",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "CH5",
+      "description": "Analog input channel 5",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "CH6",
+      "description": "Analog input channel 6",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "CH7",
+      "description": "Analog input channel 7",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "MOSI",
+      "description": "SPI data input (DIN)",
+      "direction": "input",
+      "functions": ["SPI_MOSI"]
+    },
+    {
+      "name": "MISO",
+      "description": "SPI data output (DOUT)",
+      "direction": "output",
+      "functions": ["SPI_MISO"]
+    },
+    {
+      "name": "CS",
+      "description": "SPI chip select (active low)",
+      "direction": "input",
+      "functions": ["SPI_CS"]
+    },
+    {
+      "name": "CLK",
+      "description": "SPI clock input",
+      "direction": "input",
+      "functions": ["SPI_CLK"]
+    }
+  ]
+}
+

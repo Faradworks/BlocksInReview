@@ -1,0 +1,196 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fdb3d511-8f2a-42ca-9296-49c06e9f8ed8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 116.84 94.742)
+		(size 14.986 27.686)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ade9a6c7-29c3-4d73-847b-fd8a2005538e")
+		(property "Sheetname" "MCP3008"
+			(at 116.84 94.0304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_mcp3008.kicad_sch"
+			(at 116.84 123.0126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CH0" input
+			(at 116.84 102.87 180)
+			(uuid "2c4fb13b-eb0c-4bf6-88ec-acd3fecddc75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH1" input
+			(at 116.84 105.41 180)
+			(uuid "edd611b0-f6c2-4b92-8391-7512930ba293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH2" input
+			(at 116.84 107.95 180)
+			(uuid "44159bbe-aa0f-43a6-aee5-908e18065fdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH3" input
+			(at 116.84 110.49 180)
+			(uuid "3e04c5cc-4a9c-489d-b73e-05974dedb0d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH4" input
+			(at 116.84 113.03 180)
+			(uuid "986f4f73-1e74-44f0-b6a3-2b7931022d40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH5" input
+			(at 116.84 115.57 180)
+			(uuid "564f755e-21b2-4498-9930-b9713bb1c629")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH6" input
+			(at 116.84 118.11 180)
+			(uuid "9c5c7cf5-bdbb-4a9a-88ff-eab7115cfa55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH7" input
+			(at 116.84 120.65 180)
+			(uuid "699957f1-c791-4dba-951a-93efee6cdc58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 131.826 105.41 0)
+			(uuid "ad6fa07d-1cdd-4d9d-ae1a-12f8c4c2a3d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 131.826 102.87 0)
+			(uuid "5acacb3b-71d8-4742-ba04-a4623f598b1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 116.84 100.33 180)
+			(uuid "70c27134-521a-4a09-a983-06e84a256667")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 131.826 100.33 0)
+			(uuid "9610cb10-6d45-4c29-9da8-f70f31d84a7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 131.826 97.79 0)
+			(uuid "102ccca9-8e6a-478c-a31b-7902a1ae7213")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 116.84 97.79 180)
+			(uuid "f4a963a0-0d78-4282-960c-7130b3f362d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcp3008"
+				(path "/fdb3d511-8f2a-42ca-9296-49c06e9f8ed8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
