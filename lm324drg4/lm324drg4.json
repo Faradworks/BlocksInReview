@@ -1,0 +1,115 @@
+{
+  "name": "LM324DRG4",
+  "description": "Quad op-amp configured as voltage followers for signal buffering and isolation",
+  "category": "Analog",
+  "dim_width_mm": 21.0,
+  "dim_height_mm": 25.0,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "POWER",
+      "description": "Power supply: Positive and Negative rails",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["VCC", "VCCN"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": ["GND"]
+    },
+    {
+      "name": "INPUTS",
+      "description": "Analog input signals for voltage follower",
+      "category": "ANALOG",
+      "connection_required": true,
+      "direction": "input",
+      "side": "b",
+      "pin_mappings": ["PD0", "PD1", "PD2", "PD3"]
+    },
+    {
+      "name": "OUTPUTS",
+      "description": "Buffered analog outputs",
+      "category": "ANALOG",
+      "connection_required": true,
+      "direction": "output",
+      "side": "r",
+      "pin_mappings": ["OUT1", "OUT2", "OUT3", "OUT4"]
+    }
+  ],
+  "pins": [
+    {
+      "name": "VCC",
+      "description": "Positive supply voltage (3V to 32V typical)",
+      "direction": "input",
+      "functions": ["POWER_IN"]
+    },
+    {
+      "name": "VCCN",
+      "description": "Negative supply voltage (e.g. -3V to -32V for dual-supply)",
+      "direction": "input",
+      "functions": ["POWER_IN"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    },
+    {
+      "name": "PD0",
+      "description": "Analog input to op-amp 1 (voltage follower)",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "PD1",
+      "description": "Analog input to op-amp 2 (voltage follower)",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "PD2",
+      "description": "Analog input to op-amp 3 (voltage follower)",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "PD3",
+      "description": "Analog input to op-amp 4 (voltage follower)",
+      "direction": "input",
+      "functions": ["ANALOG_IN"]
+    },
+    {
+      "name": "OUT1",
+      "description": "Analog output from op-amp 1 (buffered)",
+      "direction": "output",
+      "functions": ["ANALOG_OUT"]
+    },
+    {
+      "name": "OUT2",
+      "description": "Analog output from op-amp 2 (buffered)",
+      "direction": "output",
+      "functions": ["ANALOG_OUT"]
+    },
+    {
+      "name": "OUT3",
+      "description": "Analog output from op-amp 3 (buffered)",
+      "direction": "output",
+      "functions": ["ANALOG_OUT"]
+    },
+    {
+      "name": "OUT4",
+      "description": "Analog output from op-amp 4 (buffered)",
+      "direction": "output",
+      "functions": ["ANALOG_OUT"]
+    }
+  ]
+}
+

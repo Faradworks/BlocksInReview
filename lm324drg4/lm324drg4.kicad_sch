@@ -1,0 +1,166 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e9acf979-cb8d-455f-80a4-9e5bf695a99d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 107.442 86.614)
+		(size 12.7 30.226)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b0a31e1-32d0-4553-9920-8100381bc297")
+		(property "Sheetname" "LM324DRG4"
+			(at 107.442 85.9024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_lm324drg4.kicad_sch"
+			(at 107.442 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 107.442 93.98 180)
+			(uuid "12ed18fa-b0c3-4687-a2bb-66a107c15b63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" input
+			(at 107.442 97.79 180)
+			(uuid "b19c83f6-5fbd-4458-bcb5-c61ca98c58fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT2" input
+			(at 107.442 100.33 180)
+			(uuid "57406033-7236-4d72-b916-f3454c1b4139")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT3" input
+			(at 107.442 102.87 180)
+			(uuid "90e5bc32-fecd-4ca3-ba45-25a40fb477ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT4" input
+			(at 107.442 105.41 180)
+			(uuid "bbfb434f-ce4a-40a9-ae8a-360bf8d3bed4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PD0" input
+			(at 107.442 107.95 180)
+			(uuid "279e1aea-6502-417d-948c-be7b87f84ab4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PD1" input
+			(at 107.442 110.49 180)
+			(uuid "7409faab-25b6-4435-a495-a1144dc660d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PD2" input
+			(at 107.442 113.03 180)
+			(uuid "f415e8b6-3225-4ed8-a84f-685d9789b8be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PD3" input
+			(at 107.442 115.57 180)
+			(uuid "1d5c4aa6-5a4f-4c9e-9eab-b595532f6e6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 107.442 88.9 180)
+			(uuid "ad8cf0f5-de36-41e9-858d-c3c1f2d77d67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCN" input
+			(at 107.442 91.44 180)
+			(uuid "2c5e0be5-5122-4dc9-b2d5-c2e6916b07e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lm324drg4"
+				(path "/e9acf979-cb8d-455f-80a4-9e5bf695a99d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
