@@ -31,7 +31,7 @@
       "connection_required": true,
       "direction": "output",
       "side": "l",
-      "pin_mappings": ["VCCN"]
+      "pin_mappings": ["VEE"]
     }
   ],
   "pins": [
@@ -48,7 +48,7 @@
       "functions": ["GND"]
     },
     {
-      "name": "VCCN",
+      "name": "VEE",
       "description": "Negative output voltage (~-VCC)",
       "direction": "output",
       "functions": ["POWER_OUT"]

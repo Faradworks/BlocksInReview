@@ -693,7 +693,7 @@
 		)
 		(uuid "0decccef-075b-4c6a-bd29-053e20907ffe")
 	)
-	(text "Block Function:\n    4-channel analog signal buffering using LM324 op-amp\n    Provides signal conditioning for ADC or signal-sensitive systems.\nKey Notes:\n    Op-amps configured as voltage followers (unity gain).\n    Input from microcontroller or sensor (PD0-PD3).\n    Buffered outputs (Out0-Out3) for ADC or processing.\n    Dual-supply operation (+VCC and -VCC) supports full input swing.\n    Pull-down resistors (100kΩ) to maintain defined logic level at high-Z.\nSupply Range:\n    +VCC: 3V to 32V\n    -VCC: -3V to -32V\n    (Typical: ±12V or ±15V for analog systems)"
+	(text "Block Function:\n    4-channel analog signal buffering using LM324 op-amp\n    Provides signal conditioning for ADC or signal-sensitive systems.\nKey Notes:\n    Op-amps configured as voltage followers (unity gain).\n    Input from microcontroller or sensor (PD0-PD3).\n    Buffered outputs (Out0-Out3) for ADC or processing.\n    Dual-supply operation (VCC and VEE(-VCC)) supports full input swing.\n    Pull-down resistors (100kΩ) to maintain defined logic level at high-Z.\nSupply Range:\n    +VCC: 3V to 32V\n    VEE(-VCC): -3V to -32V\n    (Typical: ±12V or ±15V for analog systems)"
 		(exclude_from_sim no)
 		(at 84.582 130.302 0)
 		(effects
@@ -814,7 +814,7 @@
 		)
 		(uuid "e1e56d5b-50cf-400c-ad6f-65d338e2c632")
 	)
-	(hierarchical_label "VCCN"
+	(hierarchical_label "VEE"
 		(shape input)
 		(at 172.72 110.49 0)
 		(effects
@@ -1023,7 +1023,7 @@
 		)
 		(uuid "c342dc05-d5c1-4b6c-ad93-a954a2fdfa5e")
 	)
-	(hierarchical_label "VCCN"
+	(hierarchical_label "VEE"
 		(shape input)
 		(at 115.57 66.04 90)
 		(effects

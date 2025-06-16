@@ -13,7 +13,7 @@
       "connection_required": true,
       "direction": "input",
       "side": "l",
-      "pin_mappings": ["VCC", "VCCN"]
+      "pin_mappings": ["VCC", "VEE"]
     },
     {
       "name": "GND",
@@ -51,7 +51,7 @@
       "functions": ["POWER_IN"]
     },
     {
-      "name": "VCCN",
+      "name": "VEE",
       "description": "Negative supply voltage (e.g. -3V to -32V for dual-supply)",
       "direction": "input",
       "functions": ["POWER_IN"]

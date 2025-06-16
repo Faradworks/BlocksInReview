@@ -611,7 +611,7 @@
 		)
 		(uuid "a62c740a-3f16-4302-a8b6-5e712cf6da67")
 	)
-	(text "LM2662M - Inverting Charge Pump Converter\nFunction:\n- Generates a negative voltage (-VCC) from a positive input supply (VCC)\nOperating Range:\n- Input Voltage (VCC): 1.5V to 5.5V\n- Output Current: Up to 200 mA (typical)\n\n"
+	(text "LM2662M - Inverting Charge Pump Converter\nFunction:\n- Generates a negative voltage (VEE(-VCC)) from a positive input supply (VCC)\nOperating Range:\n- Input Voltage (VCC): 1.5V to 5.5V\n- Output Current: Up to 200 mA (typical)\n\n"
 		(exclude_from_sim no)
 		(at 88.9 112.268 0)
 		(effects
@@ -859,7 +859,7 @@
 		)
 		(uuid "c0834dca-674b-4ff6-ac14-5c4ebc97d806")
 	)
-	(hierarchical_label "VCCN"
+	(hierarchical_label "VEE"
 		(shape input)
 		(at 187.96 72.39 0)
 		(effects

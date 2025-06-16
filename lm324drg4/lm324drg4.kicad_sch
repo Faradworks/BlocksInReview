@@ -139,9 +139,9 @@
 				(justify left)
 			)
 		)
-		(pin "VCCN" input
+		(pin "VEE" input
 			(at 107.442 91.44 180)
-			(uuid "2c5e0be5-5122-4dc9-b2d5-c2e6916b07e8")
+			(uuid "1c40cf01-b7d8-474b-a6f8-d281427feaf8")
 			(effects
 				(font
 					(size 1.27 1.27)
