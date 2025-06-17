@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0ff58a49-1451-4e48-857c-ca517055df20")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.854 56.134)
+		(size 12.7 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67218121-a303-4228-b394-03aeedd9f0c6")
+		(property "Sheetname" "PA1616S"
+			(at 101.854 55.4224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_pa1616s.kicad_sch"
+			(at 101.854 91.0086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1PPS" input
+			(at 101.854 69.85 180)
+			(uuid "08e6e2c2-1684-4e1e-a15a-2516bdba45fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_ANT" input
+			(at 101.854 66.04 180)
+			(uuid "303a4b74-53d2-4f4d-974d-8d131ab58355")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 101.854 62.23 180)
+			(uuid "720b68ac-4fcf-435a-bceb-67a26a2eb6f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRESET" input
+			(at 101.854 73.66 180)
+			(uuid "90a80661-e827-4e23-9cfe-4fe6c0214587")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTCM" input
+			(at 101.854 77.47 180)
+			(uuid "a9f529f2-828e-479f-b1af-11023264a322")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX0" input
+			(at 101.854 81.28 180)
+			(uuid "c6f9afb0-f66c-4e70-98fe-01c25fcb04c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX0" input
+			(at 101.854 85.09 180)
+			(uuid "cc72ec0a-6c62-4736-ab26-6560ad24a3a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX1" input
+			(at 101.854 88.9 180)
+			(uuid "a69f6128-8ebe-4167-89cd-fac51c7d80f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 101.854 58.42 180)
+			(uuid "af7c29e9-df54-4d62-9433-7225e6429525")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pa1616s"
+				(path "/0ff58a49-1451-4e48-857c-ca517055df20"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
