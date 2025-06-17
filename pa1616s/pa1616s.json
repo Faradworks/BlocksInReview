@@ -1,93 +1,138 @@
 {
-  "name": "BNO055",
-  "description": "9-DOF Absolute Orientation Sensor with sensor fusion, I2C interface",
-  "category": "Sensor",
-  "dim_width_mm": 21.0,
-  "dim_height_mm": 25.0,
+  "name": "PA1616S",
+  "description": "GNSS GPS Module based on MediaTek MT3333 chipset. Supports GPS, QZSS, SBAS. Provides UART output with optional backup and external antenna support.",
+  "category": "Positioning",
+  "dim_width_mm": 16.0,
+  "dim_height_mm": 16.0,
   "maybe_public": false,
   "ports": [
     {
-      "name": "POWER",
-      "description": "3.3V power supply",
+      "name": "Power",
+      "description": "Main power supply",
       "category": "POWER",
       "connection_required": true,
       "direction": "input",
       "side": "l",
-      "pin_mappings": [ "+3V3" ]
-    },
-    {
-      "name": "GND",
-      "description": "Ground connection",
-      "category": "GND",
-      "connection_required": true,
-      "direction": "bidirectional",
-      "side": "l",
-      "pin_mappings": [ "GND" ]
-    },
-    {
-      "name": "I2C",
-      "description": "I2C communication interface",
-      "category": "COMMUNICATION",
-      "connection_required": true,
-      "direction": "bidirectional",
-      "side": "r",
-      "pin_mappings": [ "SCL", "SDA" ]
-    },
-    {
-      "name": "INTERRUPT",
-      "description": "Interrupt output pin for data ready/event notification",
-      "category": "DIGITAL",
-      "connection_required": false,
-      "direction": "output",
-      "side": "r",
-      "pin_mappings": [ "INT" ]
-    },
-    {
-      "name": "RESET",
-      "description": "Active-low reset input",
-      "category": "DIGITAL",
-      "connection_required": false,
-      "direction": "input",
-      "side": "r",
-      "pin_mappings": [ "RESET" ]
-    }
-  ],
-  "pins": [
-    {
-      "name": "+3V3",
-      "description": "3.3V supply input",
-      "direction": "input",
-      "functions": [ "POWER_IN_3V3" ]
+      "pin_mappings": ["VCC"]
     },
     {
       "name": "GND",
       "description": "Ground reference",
+      "category": "GND",
+      "connection_required": true,
       "direction": "bidirectional",
-      "functions": [ "GND" ]
+      "side": "l",
+      "pin_mappings": ["GND"]
     },
     {
-      "name": "INT",
-      "description": "Interrupt output for host MCU",
-      "direction": "output",
-      "functions": [ "ALERT", "DATA_READY" ]
-    },
-    {
-      "name": "RESET",
-      "description": "Active-low reset pin",
+      "name": "EXT_ANT",
+      "description": "External active antenna input (requires 50Ω controlled impedance trace)",
+      "category": "RF",
+      "connection_required": false,
       "direction": "input",
-      "functions": [ "RESET" ]
+      "side": "l",
+      "pin_mappings": ["EXT_ANT"]
     },
     {
-      "name": "SCL",
-      "description": "I2C clock line",
-      "direction": "bidirectional",
-      "functions": [ "I2C_SCL" ]
+      "name": "1PPS",
+      "description": "Pulse-per-second output for precise timing (optional)",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "output",
+      "side": "l",
+      "pin_mappings": ["1PPS"]
     },
     {
-      "name": "SDA",
-      "description": "I2C data line",
+      "name": "Reset",
+      "description": "Active-low hardware reset",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["NRESET"]
+    },
+    {
+      "name": "RTCM",
+      "description": "RTCM correction input (for differential GPS)",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["RTCM"]
+    },
+    {
+      "name": "UART0",
+      "description": "Primary UART communication interface (TX0/RX0)",
+      "category": "COMMUNICATION",
+      "connection_required": true,
       "direction": "bidirectional",
-      "functions": [ "I2C_SDA" ]
+      "side": "l",
+      "pin_mappings": ["TX0", "RX0"]
+    },
+    {
+      "name": "UART1",
+      "description": "Secondary UART TX (optional)",
+      "category": "COMMUNICATION",
+      "connection_required": false,
+      "direction": "output",
+      "side": "l",
+      "pin_mappings": ["TX1"]
+    }
+  ],
+  "pins": [
+    {
+      "name": "VCC",
+      "description": "3.0V–4.3V power input (typ. 3.3V)",
+      "direction": "input",
+      "functions": ["POWER_IN_3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground reference for module",
+      "direction": "bidirectional",
+      "functions": ["GND"]
+    },
+    {
+      "name": "EXT_ANT",
+      "description": "External antenna connection with 50Ω trace (active antenna)",
+      "direction": "input",
+      "functions": ["RF_IN"]
+    },
+    {
+      "name": "1PPS",
+      "description": "Pulse-per-second timing signal output",
+      "direction": "output",
+      "functions": ["TIMING", "GPS_SYNC"]
+    },
+    {
+      "name": "NRESET",
+      "description": "Active-low reset input",
+      "direction": "input",
+      "functions": ["RESET"]
+    },
+    {
+      "name": "RTCM",
+      "description": "RTCM correction data input (optional)",
+      "direction": "input",
+      "functions": ["GPS_CORRECTION"]
+    },
+    {
+      "name": "RX0",
+      "description": "UART0 receive (MCU TX)",
+      "direction": "input",
+      "functions": ["UART_RX"]
+    },
+    {
+      "name": "TX0",
+      "description": "UART0 transmit (MCU RX)",
+      "direction": "output",
+      "functions": ["UART_TX"]
+    },
+    {
+      "name": "TX1",
+      "description": "UART1 transmit (optional)",
+      "direction": "output",
+      "functions": ["UART_TX"]
     }
   ]
 }
