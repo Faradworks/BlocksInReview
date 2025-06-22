@@ -1,0 +1,496 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ee0fcbb6-6e07-467d-8954-b6df91be3afa")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.854 45.72)
+		(size 32.766 104.14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38c500d9-8c49-47a3-ac44-6b9512864f40")
+		(property "Sheetname" "ESP32-S3"
+			(at 101.854 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_esp32-s3.kicad_sch"
+			(at 101.854 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 101.854 49.53 180)
+			(uuid "12cc121c-493b-4428-ad59-22134473118f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 101.854 53.34 180)
+			(uuid "1fd8590f-e6af-4347-96cd-5561a3998555")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1" input
+			(at 101.854 57.15 180)
+			(uuid "96c2b4df-8529-4fbc-b8be-f69375174a52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO2" input
+			(at 101.854 60.96 180)
+			(uuid "b2fdbf4b-adad-4ff6-a563-832095ddf80f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO3" input
+			(at 101.854 64.77 180)
+			(uuid "6abf06f5-bd5e-4087-aa10-02f45f5bb645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO4" input
+			(at 101.854 68.58 180)
+			(uuid "b1e722eb-3bc2-4f75-b8a8-3a7dab899af1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO5" input
+			(at 101.854 72.39 180)
+			(uuid "8cdfad74-000c-4075-bb04-070d31e00c6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO6" input
+			(at 101.854 76.2 180)
+			(uuid "c8aa69a9-ad94-424c-8526-28de2b364c6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO7" input
+			(at 101.854 80.01 180)
+			(uuid "4a0b1004-56ea-483c-a9f0-3df4e003b861")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO8" input
+			(at 101.854 83.82 180)
+			(uuid "68ca46ce-55e6-46c3-952b-b2b685edbfb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO9" input
+			(at 101.854 87.63 180)
+			(uuid "cfea0131-552b-492b-8014-b17daa267d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO10_DBLTAP" input
+			(at 101.854 91.44 180)
+			(uuid "bcba5e12-5995-4ac2-addf-8ad0e9c1b085")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO11" input
+			(at 101.854 95.25 180)
+			(uuid "1ccf92a4-006f-41d0-b1ee-696ab053e0f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO12" input
+			(at 101.854 99.06 180)
+			(uuid "03420ec9-d8be-4e67-b934-2bb1a1aaaf24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO13" input
+			(at 101.854 102.87 180)
+			(uuid "0189f1a8-98ff-4024-bea8-448c60cf502e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO14" input
+			(at 101.854 106.68 180)
+			(uuid "74c89b7c-56fe-4855-9733-4f87391d4950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO17" input
+			(at 101.854 110.49 180)
+			(uuid "2a9baae1-a782-48c3-80c4-eeaa1d34b93d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO18" input
+			(at 101.854 114.3 180)
+			(uuid "c7122717-531a-428c-a98c-ffe17b49671f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO21" input
+			(at 101.854 118.11 180)
+			(uuid "ecfc92e8-316a-4f24-941d-e454c7a5bb9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO33" input
+			(at 101.854 121.92 180)
+			(uuid "c4f4bb7d-dafa-4f4f-81f9-c98ce0ed6f81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO34" input
+			(at 101.854 125.73 180)
+			(uuid "c2eed8eb-f3c2-4750-b7f0-d7e02e70b261")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO35" input
+			(at 101.854 129.54 180)
+			(uuid "c1b60fa7-6efb-4a50-957d-7407ad35bd7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO36" input
+			(at 101.854 133.35 180)
+			(uuid "a6a72ff0-2738-4ca7-9e3c-9675a0735dc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO37" input
+			(at 101.854 137.16 180)
+			(uuid "e16a4e10-1f36-46b7-8c5c-803378eb45f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO38" input
+			(at 101.854 140.97 180)
+			(uuid "920d7bb3-ebc2-42dc-b1c3-74cf69782042")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO45" input
+			(at 101.854 144.78 180)
+			(uuid "69639d2d-1063-47d5-8237-9133059e58d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO46" input
+			(at 101.854 148.59 180)
+			(uuid "d9f826b0-2629-4e9a-bc3e-ee0e1e96db3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTCK" input
+			(at 134.62 50.8 0)
+			(uuid "0d310bdd-7787-4dbc-9d14-ac9d59b046f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTDI" input
+			(at 134.62 54.61 0)
+			(uuid "23fd2d16-ae0b-4889-80f3-1c0ea6edeeee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTDO" input
+			(at 134.62 58.42 0)
+			(uuid "fdfc126c-fa77-46fc-8bc2-168dbdbcef25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTMS" input
+			(at 134.62 62.23 0)
+			(uuid "58ea976f-8560-4fc8-ab2b-8f35102221b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPICLK" input
+			(at 134.62 66.04 0)
+			(uuid "47ace7be-9840-4aa4-a0ba-c25969118d34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPICLK_N" input
+			(at 134.62 69.85 0)
+			(uuid "69c99021-07f3-44d0-be8a-78d8aeafae6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPICLK_P" input
+			(at 134.62 73.66 0)
+			(uuid "45df646d-bbb4-42e4-96a8-b6fd6ff8d1d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPICS0" input
+			(at 134.62 77.47 0)
+			(uuid "97720aa6-5647-4e92-a88a-b9f372c87a6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPICS1" input
+			(at 134.62 81.28 0)
+			(uuid "645d42a2-760f-49a7-8730-51cfc99aa0a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPID" input
+			(at 134.62 85.09 0)
+			(uuid "289aaad4-e700-475e-8b72-3b6159e095a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIHD" input
+			(at 134.62 88.9 0)
+			(uuid "6942f851-1172-40e8-908f-59aef417bff8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIQ" input
+			(at 134.62 92.71 0)
+			(uuid "7cfd62a4-44d4-4ff2-b144-fa313a33ef62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIWP" input
+			(at 134.62 96.52 0)
+			(uuid "6e655282-fdcb-4edb-8e9f-17e160706cb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U0RXD" input
+			(at 134.62 100.33 0)
+			(uuid "03d1b23b-6d52-4dba-a0e9-7e0bcb925f87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U0TXD" input
+			(at 134.62 104.14 0)
+			(uuid "72e2c485-8dba-4265-bd2c-fc5c6ca991e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XTAL_32K_N" input
+			(at 134.62 107.95 0)
+			(uuid "84b4ad29-9b53-411a-9980-3d429fb3a269")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XTAL_32K_P" input
+			(at 134.62 111.76 0)
+			(uuid "c9364bde-d9f3-4f96-b7e9-4daeb67e0a6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "esp32-s3"
+				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

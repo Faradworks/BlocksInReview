@@ -1,0 +1,123 @@
+{
+  "name": "ESP32-S3",
+  "description": "ESP32-S3 Wi-Fi + Bluetooth microcontroller with GPIO, JTAG, SPI, UART, and 32kHz crystal support.",
+  "category": "Microcontroller",
+  "dim_width_mm": 20.0,
+  "dim_height_mm": 30.0,
+  "maybe_public": false,
+  "ports": [
+    {
+      "name": "POWER",
+      "description": "3.3V supply input for core and peripherals",
+      "category": "POWER",
+      "connection_required": true,
+      "direction": "input",
+      "side": "l",
+      "pin_mappings": ["3V3"]
+    },
+    {
+      "name": "GND",
+      "description": "Ground connection",
+      "category": "GND",
+      "connection_required": true,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": ["GND"]
+    },
+    {
+      "name": "GPIO",
+      "description": "General-purpose digital I/O",
+      "category": "DIGITAL",
+      "connection_required": false,
+      "direction": "bidirectional",
+      "side": "l",
+      "pin_mappings": [
+        "GPIO01", "GPIO02", "GPIO03", "GPIO04", "GPIO05", "GPIO06", "GPIO07", "GPIO08", "GPIO09",
+        "GPIO10_DBLTAP", "GPIO11", "GPIO12", "GPIO13", "GPIO14", "GPIO17", "GPIO18", "GPIO21",
+        "GPIO33", "GPIO34", "GPIO35", "GPIO36", "GPIO37", "GPIO38", "GPIO45", "GPIO46"
+      ]
+    },
+    {
+      "name": "SPI & DEBUG",
+      "description": "SPI Flash & debug (JTAG) signals",
+      "category": "COMMUNICATION",
+      "connection_required": false,
+      "direction": "bidirectional",
+      "side": "r",
+      "pin_mappings": [
+        "MTCK", "MTDI", "MTDO", "MTMS",
+        "SPICLK", "SPICLK_N", "SPICLK_P", "SPICS0", "SPICS1", "SPID", "SPIHD", "SPIWP", "SPIQ"
+      ]
+    },
+    {
+      "name": "UART",
+      "description": "UART0 communication interface",
+      "category": "COMMUNICATION",
+      "connection_required": false,
+      "direction": "bidirectional",
+      "side": "r",
+      "pin_mappings": ["U0RXD", "U0TXD"]
+    },
+    {
+      "name": "RTC CRYSTAL",
+      "description": "32.768kHz crystal oscillator input for low-power RTC",
+      "category": "CLOCK",
+      "connection_required": false,
+      "direction": "input",
+      "side": "r",
+      "pin_mappings": ["XTAL_32K_N", "XTAL_32K_P"]
+    }
+  ],
+  "pins": [
+    { "name": "3V3", "description": "3.3V power supply", "direction": "input", "functions": ["POWER_IN_3V3"] },
+    { "name": "GND", "description": "Ground connection", "direction": "bidirectional", "functions": ["GND"] },
+
+    { "name": "GPIO01", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO02", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO03", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO04", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO05", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO06", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO07", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO08", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO09", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO10_DBLTAP", "description": "Double-tap wake capable IO", "direction": "bidirectional", "functions": ["GPIO", "INTERRUPT"] },
+    { "name": "GPIO11", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO12", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO13", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO14", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO17", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO18", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO21", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO33", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO34", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO35", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO36", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO37", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO38", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO45", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+    { "name": "GPIO46", "description": "General purpose IO", "direction": "bidirectional", "functions": ["GPIO"] },
+
+    { "name": "MTCK", "description": "JTAG clock", "direction": "input", "functions": ["JTAG_CLK"] },
+    { "name": "MTDI", "description": "JTAG data input", "direction": "input", "functions": ["JTAG_IN"] },
+    { "name": "MTDO", "description": "JTAG data output", "direction": "output", "functions": ["JTAG_OUT"] },
+    { "name": "MTMS", "description": "JTAG mode select", "direction": "input", "functions": ["JTAG_SEL"] },
+
+    { "name": "SPICLK", "description": "SPI clock", "direction": "bidirectional", "functions": ["SPI_SCK"] },
+    { "name": "SPICLK_N", "description": "SPI clock negative", "direction": "bidirectional", "functions": ["SPI_SCK_N"] },
+    { "name": "SPICLK_P", "description": "SPI clock positive", "direction": "bidirectional", "functions": ["SPI_SCK_P"] },
+    { "name": "SPICS0", "description": "SPI chip select 0", "direction": "bidirectional", "functions": ["SPI_CS"] },
+    { "name": "SPICS1", "description": "SPI chip select 1", "direction": "bidirectional", "functions": ["SPI_CS"] },
+    { "name": "SPID", "description": "SPI data", "direction": "bidirectional", "functions": ["SPI_IO"] },
+    { "name": "SPIHD", "description": "SPI HD line", "direction": "bidirectional", "functions": ["SPI_IO"] },
+    { "name": "SPIWP", "description": "SPI write protect", "direction": "bidirectional", "functions": ["SPI_IO"] },
+    { "name": "SPIQ", "description": "SPI Q line", "direction": "bidirectional", "functions": ["SPI_IO"] },
+
+    { "name": "U0RXD", "description": "UART receive", "direction": "input", "functions": ["UART_RX"] },
+    { "name": "U0TXD", "description": "UART transmit", "direction": "output", "functions": ["UART_TX"] },
+
+    { "name": "XTAL_32K_N", "description": "32kHz crystal input (negative)", "direction": "input", "functions": ["CRYSTAL"] },
+    { "name": "XTAL_32K_P", "description": "32kHz crystal input (positive)", "direction": "input", "functions": ["CRYSTAL"] }
+  ]
+}
+
