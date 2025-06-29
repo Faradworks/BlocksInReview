@@ -13,7 +13,7 @@
       "connection_required": true,
       "direction": "input",
       "side": "l",
-      "pin_mappings": ["3V3"]
+      "pin_mappings": ["VBUS", "3V3"]
     },
     {
       "name": "GND",
@@ -69,6 +69,7 @@
     }
   ],
   "pins": [
+    { "name": "VBUS", "description": "USB bus power input", "direction": "input", "functions": ["POWER_IN_USB"] },
     { "name": "3V3", "description": "3.3V power supply", "direction": "input", "functions": ["POWER_IN_3V3"] },
     { "name": "GND", "description": "Ground connection", "direction": "bidirectional", "functions": ["GND"] },
 

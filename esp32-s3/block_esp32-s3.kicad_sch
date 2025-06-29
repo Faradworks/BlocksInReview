@@ -2247,6 +2247,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:R"
 			(pin_numbers
 				(hide yes)
@@ -2806,10 +2989,188 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AP2112K-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2112K-3.3"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2112K-3.3_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2112K-3.3_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 12.7 18.796)
-		(end 248.92 162.052)
+		(end 283.718 162.052)
 		(stroke
 			(width 0)
 			(type default)
@@ -2894,6 +3255,22 @@
 		)
 		(uuid "e301a0fd-e21a-464a-b21d-675555b737ca")
 	)
+	(text "3.3 V Low Dropout Linear Regulator\n    Input: 2.5 V - 6 V\n    Output: Fixed 3.3 V, up to 600 mA"
+		(exclude_from_sim no)
+		(at 255.016 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f09146fc-fa82-4871-bd37-4566bee22800")
+	)
+	(junction
+		(at 243.84 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a22d67e-df26-42fc-8812-58c2463e1ab1")
+	)
 	(junction
 		(at 168.91 96.52)
 		(diameter 0)
@@ -2965,10 +3342,6 @@
 		(uuid "1358fe31-90a6-47a3-827d-85e36bc95d89")
 	)
 	(no_connect
-		(at 50.8 83.82)
-		(uuid "70bfb744-ae2a-4844-882c-bcd95ce7a4b7")
-	)
-	(no_connect
 		(at 20.32 96.52)
 		(uuid "91fff3f2-a81c-4b56-a4cc-abeeef86b327")
 	)
@@ -3009,6 +3382,16 @@
 			(type default)
 		)
 		(uuid "10c3317c-72f2-49df-9a65-6617daae9017")
+	)
+	(wire
+		(pts
+			(xy 269.24 46.99) (xy 269.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187aa413-184f-468a-af61-09d1e7dfdd95")
 	)
 	(wire
 		(pts
@@ -3089,6 +3472,26 @@
 			(type default)
 		)
 		(uuid "438de402-a93d-4bc9-baf3-d3bd6b4c5d5b")
+	)
+	(wire
+		(pts
+			(xy 234.95 46.99) (xy 243.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e23ea3c-d1ed-4c70-94a5-5100f11a2993")
+	)
+	(wire
+		(pts
+			(xy 243.84 49.53) (xy 243.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509112a8-cf5d-4bf9-b6ef-139189ca47d3")
 	)
 	(wire
 		(pts
@@ -3202,6 +3605,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 46.99) (xy 247.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a84cb6-b6b2-46e2-9bb9-d0e4e9ab01cc")
+	)
+	(wire
+		(pts
 			(xy 153.67 55.88) (xy 160.02 55.88)
 		)
 		(stroke
@@ -3229,6 +3642,16 @@
 			(type default)
 		)
 		(uuid "b11ed88b-8041-4c08-8066-6f5c75a32636")
+	)
+	(wire
+		(pts
+			(xy 247.65 49.53) (xy 243.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45a5aa7-39de-4934-94a6-ccac79d3084f")
 	)
 	(wire
 		(pts
@@ -3329,6 +3752,16 @@
 			(type default)
 		)
 		(uuid "fb0830fe-561e-4739-bec7-c1a0c190fd76")
+	)
+	(wire
+		(pts
+			(xy 262.89 46.99) (xy 269.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddaf2f3-d931-44b0-b1a7-fdcc494e1e4e")
 	)
 	(label "LNA_IN"
 		(at 102.87 76.2 180)
@@ -3480,6 +3913,16 @@
 		)
 		(uuid "f28f1fdc-b69f-4179-9eb0-efbc2958f3f8")
 	)
+	(label "VBUS"
+		(at 234.95 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe65e0e1-bda9-4baa-85bb-9eeb8268ced1")
+	)
 	(hierarchical_label "SPICS1"
 		(shape input)
 		(at 102.87 132.08 180)
@@ -3622,6 +4065,17 @@
 			(justify right)
 		)
 		(uuid "277ad2a4-03af-4903-9d53-ab8444444c2e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 234.95 54.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27b0702a-7cb7-45a5-bb19-2b5c23cd1c42")
 	)
 	(hierarchical_label "MTDO"
 		(shape input)
@@ -3768,6 +4222,17 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
+		(at 265.43 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "551ea563-bcb7-47b1-9fce-1078be2c4c0c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
 		(at 163.83 71.12 0)
 		(effects
 			(font
@@ -3801,6 +4266,17 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
+		(at 269.24 55.88 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60be26af-ff34-4748-902b-f9263a67369e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
 		(at 176.53 45.72 0)
 		(effects
 			(font
@@ -3831,6 +4307,17 @@
 			(justify left)
 		)
 		(uuid "6f7f38af-627c-4b6b-9baa-5333b0da4d02")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 255.27 57.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71a2ed11-8bd5-44d3-a2ff-1d8f3ceb1693")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -3886,6 +4373,17 @@
 			(justify right)
 		)
 		(uuid "8c063838-b25a-44d5-b519-8014e2a8d338")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 250.19 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c781f5b-7e9f-4eb1-a4d9-ea689ce9a315")
 	)
 	(hierarchical_label "GPIO4"
 		(shape input)
@@ -4062,6 +4560,28 @@
 			(justify right)
 		)
 		(uuid "c61d47ec-8424-4889-9e41-6848380a433b")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 50.8 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6b0174e-16b5-4f86-8e81-d45355a75ed2")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 269.24 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbacf951-c2dc-463d-8eda-5c39e1f75fa8")
 	)
 	(hierarchical_label "XTAL_32K_N"
 		(shape input)
@@ -4916,6 +5436,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:LED")
+		(at 261.62 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36f23b8f-a30a-42c2-97f9-fe2babbaca0c")
+		(property "Reference" "D1"
+			(at 260.096 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 259.842 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 261.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 261.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" "C2286"
+			(at 261.62 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KT-0603R "
+			(at 261.62 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "436c0ea8-d43d-4dcf-94b0-17feef9a5c59")
+		)
+		(pin "1"
+			(uuid "323bccaf-7442-437b-8acf-3b9b4eddd161")
+		)
+		(instances
+			(project "esp32-s3"
+				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:C")
 		(at 49.53 43.18 0)
 		(unit 1)
@@ -5315,6 +5922,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 255.27 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7828febf-dc41-450e-be3e-c2860a5fd2c6")
+		(property "Reference" "U2"
+			(at 255.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 255.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 255.27 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 255.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 255.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C51118"
+			(at 255.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP2112K-3.3TRG1"
+			(at 255.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1dc10ac3-502f-468c-bf48-bf3502fc3a05")
+		)
+		(pin "1"
+			(uuid "d1568935-6129-423c-974d-147f45d734fd")
+		)
+		(pin "4"
+			(uuid "50c1cd0d-6922-4a42-898d-be4856e3d2b1")
+		)
+		(pin "2"
+			(uuid "ffbc53bd-4358-4ae6-a45a-3b4c2702b2e6")
+		)
+		(pin "3"
+			(uuid "7b20b58a-f753-4518-be23-435ae2cccaef")
+		)
+		(instances
+			(project ""
+				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:C")
 		(at 201.93 59.69 0)
 		(unit 1)
@@ -5613,6 +6315,110 @@
 			(project "esp32-s3"
 				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C")
+		(at 269.24 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9af53251-f6f5-4078-a46f-521932332f54")
+		(property "Reference" "C19"
+			(at 273.05 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 273.05 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 270.2052 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "package" "0603"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C109447"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603MRX5R6BB226"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 275.082 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a55f83b6-31eb-4dc9-a68c-ed0432a57238")
+		)
+		(pin "2"
+			(uuid "1e5a6f46-23d7-4b73-a0df-f83921b6ca05")
+		)
+		(instances
+			(project "esp32-s3"
+				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6164,6 +6970,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:R")
+		(at 254 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abf893ee-df8d-4f1e-aa34-95e6cdf7556c")
+		(property "Reference" "R3"
+			(at 252.476 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 254.762 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 254 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "package" "0603"
+			(at 254 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" "C23162"
+			(at 254 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4701T5E"
+			(at 254 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a6afe70-7e1d-4a27-8daa-d97f634ec046")
+		)
+		(pin "1"
+			(uuid "5b26a8ae-6900-4049-947d-55c1bbede6f5")
+		)
+		(instances
+			(project "esp32-s3"
+				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:DX07S016JA1R1500")
 		(at 35.56 91.44 0)
 		(unit 1)
@@ -6293,6 +7195,110 @@
 			(project ""
 				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C")
+		(at 234.95 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0ca5b5d-dadb-4d39-a64b-d7ce156dc08a")
+		(property "Reference" "C18"
+			(at 238.76 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 238.76 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 235.9152 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "package" "0603"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C109447"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603MRX5R6BB226"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 240.792 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "733ec3d6-ad9d-4eea-addb-9620a7410adc")
+		)
+		(pin "2"
+			(uuid "296e04a9-56b4-4933-8e8e-81de3c56792a")
+		)
+		(instances
+			(project "esp32-s3"
+				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
+					(reference "C18")
 					(unit 1)
 				)
 			)
