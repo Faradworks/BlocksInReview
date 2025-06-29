@@ -5,6 +5,130 @@
 	(uuid "4e19bb81-729d-4866-9888-1f1ca1a6adb7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:2450AT43B100E"
 			(pin_names
 				(offset 1.016)
@@ -3345,14 +3469,6 @@
 		(at 20.32 96.52)
 		(uuid "91fff3f2-a81c-4b56-a4cc-abeeef86b327")
 	)
-	(no_connect
-		(at 20.32 99.06)
-		(uuid "acbd5d9e-8816-424e-a872-ee58f26b7fb3")
-	)
-	(no_connect
-		(at 20.32 86.36)
-		(uuid "f0032d0f-2604-4af1-bcdc-7330edaf5e0a")
-	)
 	(wire
 		(pts
 			(xy 64.77 78.74) (xy 74.93 78.74)
@@ -3525,6 +3641,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 99.06) (xy 17.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4770aa-b8bd-4f6f-9f7b-98ec6be4ce83")
+	)
+	(wire
+		(pts
 			(xy 64.77 110.49) (xy 67.31 110.49)
 		)
 		(stroke
@@ -3592,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "95b4bd38-4ba1-47af-8173-d877ba6a3181")
+	)
+	(wire
+		(pts
+			(xy 17.78 86.36) (xy 20.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d71fa4a-3a97-4c19-b17f-1bccd9bac4af")
 	)
 	(wire
 		(pts
@@ -3682,6 +3818,16 @@
 			(type default)
 		)
 		(uuid "c0115a9a-0fc1-4459-a5fe-4119f29503f4")
+	)
+	(wire
+		(pts
+			(xy 20.32 99.06) (xy 17.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6584ac5-67c6-4f80-a7c1-db9611e9891f")
 	)
 	(wire
 		(pts
@@ -4186,6 +4332,17 @@
 			(justify left)
 		)
 		(uuid "3929cee4-cff1-4411-b5e9-b4661d84a2e5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 17.78 107.95 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4639f155-d8bf-4e5f-98a0-04cf49bc5e23")
 	)
 	(hierarchical_label "SPIHD"
 		(shape input)
@@ -4714,6 +4871,17 @@
 			(justify left)
 		)
 		(uuid "f8572a8f-f356-46bd-9cbe-fca75eaf599a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 17.78 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9e5a6e1-c237-4396-8b5f-4af2a401f354")
 	)
 	(hierarchical_label "GPIO14"
 		(shape input)
@@ -5922,6 +6090,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 17.78 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b1b8656-5548-4571-ac18-b4131ebc3443")
+		(property "Reference" "R4"
+			(at 19.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 18.034 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 16.002 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14677"
+			(at 17.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-075K1L"
+			(at 17.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ac08aec-00fc-4527-be4a-67d1ea07b6a2")
+		)
+		(pin "2"
+			(uuid "41fd85ac-085a-448f-9078-63c497da2bd9")
+		)
+		(instances
+			(project "esp32-s3"
+				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 255.27 49.53 0)
 		(unit 1)
@@ -7060,6 +7314,92 @@
 			(project "esp32-s3"
 				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 17.78 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8c83525-aba1-4f38-94ce-332b78857c4e")
+		(property "Reference" "R5"
+			(at 19.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 17.78 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 16.002 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14677"
+			(at 17.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-075K1L"
+			(at 17.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9db3488-ae36-48b0-b36c-8f7950b761ff")
+		)
+		(pin "2"
+			(uuid "d6f06cdf-b06c-4cad-b8af-673fd5446554")
+		)
+		(instances
+			(project "esp32-s3"
+				(path "/ee0fcbb6-6e07-467d-8954-b6df91be3afa/38c500d9-8c49-47a3-ac44-6b9512864f40"
+					(reference "R5")
 					(unit 1)
 				)
 			)
